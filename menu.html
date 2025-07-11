@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cocktail Menu</title>
+  <style>
+    body {
+      background: #f3e6c5;
+      font-family: 'Georgia', serif;
+      color: #2c2c2c;
+      padding: 40px;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 3em;
+      text-align: center;
+      margin-bottom: 40px;
+      letter-spacing: 2px;
+      color: #2f3e30;
+    }
+
+    .section {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      margin-bottom: 50px;
+      gap: 20px;
+    }
+
+    /* 为朗姆酒类、龙舌兰类、无酒精饮品类设置相反的布局 */
+    .section.reverse {
+      flex-direction: row;
+    }
+
+    .illustration {
+      flex: 1;
+      max-width: 300px;
+      margin-right: 60px;
+    }
+
+    .section.reverse .illustration {
+      margin-right: 0;
+      margin-left: 60px;
+    }
+
+    .illustration img {
+      width: 100%;
+      height: auto;
+    }
+
+    .menu {
+      flex: 2;
+    }
+
+    .category {
+      font-size: 1.8em;
+      font-weight: bold;
+      color: #1e2b1f;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #2c2c2c;
+      padding-bottom: 5px;
+    }
+
+    .item {
+      margin-bottom: 30px;
+      padding-left: 60px;
+    }
+
+    .item-header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-weight: bold;
+      font-size: 1.1em;
+      color: #1e2b1f;
+      margin-bottom: 5px;
+    }
+
+    .item-details {
+      font-size: 0.95em;
+      color: #4b4b4b;
+    }
+
+    .recipe {
+      font-size: 0.9em;
+      color: #6b6b6b;
+      margin-top: 5px;
+      padding-left: 20px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 40px 0;
+    }
+
+    @media (max-width: 768px) {
+      .section, .section.reverse {
+        flex-direction: column;
+        align-items: center;
+      }
+      .illustration {
+        max-width: 200px;
+        margin-right: 0;
+        margin-left: 0;
+      }
+      .section.reverse .illustration {
+        margin-right: 0;
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>老头调酒馆</h1>
+
+  <!-- 伏特加类 -->
+  <div class="section">
+    <div class="illustration">
+      <img src="Vodka.png" alt="Vodka Glass Illustration" />
+    </div>
+    <div class="menu">
+      <div class="category">伏特加类 Vodka-based</div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>蓝色珊瑚礁 Blue Lagoon</span>
+          <span>- 清新果香 | 酒精度:中</span>
+        </div>
+        <div class="recipe">伏特加 1oz、蓝橙糖浆 1oz、柠檬汁 0.5oz、气泡水适量。摇匀前3种材料,加气泡水。</div>
+        <div class="item-details">🍋 柠檬片,🌿 薄荷叶</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>粉红柠檬酒 Pink Lemonade Vodka</span>
+          <span>- 酸甜果香 | 酒精度:中</span>
+        </div>
+        <div class="recipe">伏特加 1.5oz、蔓越莓汁 2oz、石榴糖浆 0.5oz、柠檬汁 0.25oz。加冰摇匀倒杯。</div>
+        <div class="item-details">🍋 柠檬片,🌿 薄荷叶</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>橙香石榴伏特加 Citrus Pomegranate Vodka</span>
+          <span>- 果香浓郁 | 酒精度:中</span>
+        </div>
+        <div class="recipe">伏特加 1.5oz、橙汁 2oz、石榴糖浆 0.5oz、柠檬汁 0.25oz。加冰摇匀后倒入杯中。</div>
+        <div class="item-details">🍊 橙片</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>日落伏特加 Sunset Vodka</span>
+          <span>- 柔和甜美 | 酒精度:中</span>
+        </div>
+        <div class="recipe">伏特加 1oz、橙汁 2oz、石榴糖浆 0.5oz。倒入橙汁与伏特加,再慢慢注入糖浆。</div>
+        <div class="item-details">🍊 橙片</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>海风 Sea Breeze</span>
+          <span>- 清爽微酸 | 酒精度:中</span>
+        </div>
+        <div class="recipe">伏特加 1.5oz、蔓越莓汁 1.5oz、菠萝汁 1oz。搅拌均匀加冰。</div>
+        <div class="item-details">🍈 青柠片</div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- 朗姆酒类 -->
+  <div class="section reverse">
+    <div class="illustration">
+      <img src="Rum.png" alt="Rum Glass Illustration" />
+    </div>
+    <div class="menu">
+      <div class="category">朗姆酒类 Rum-based (Malibu)</div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>热带椰香 Tropical Coconut</span>
+          <span>- 热带清甜 | 酒精度:低</span>
+        </div>
+        <div class="recipe">Malibu 1.5oz、菠萝汁 2oz、橙汁 1oz。摇匀加冰。</div>
+        <div class="item-details">🍍 菠萝片</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>椰子蔓越莓 Coconut Breeze</span>
+          <span>- 酸甜椰香 | 酒精度:低</span>
+        </div>
+        <div class="recipe">Malibu 1.5oz、蔓越莓汁 2oz、柠檬汁 0.25oz。搅拌冷饮。</div>
+        <div class="item-details">🍈 青柠片</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>蓝色天堂 Blue Paradise</span>
+          <span>- 椰香+果味+色彩 | 酒精度:中</span>
+        </div>
+        <div class="recipe">Malibu 1oz、蓝橙糖浆 1oz、伏特加 0.5oz、菠萝汁 2oz。摇匀倒杯。</div>
+        <div class="item-details">🌿 薄荷叶</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>日落椰子 Sunset Coconut</span>
+          <span>- 色彩渐变，香甜 | 酒精度:低</span>
+        </div>
+        <div class="recipe">Malibu 1oz、石榴糖浆 0.5oz、橙汁 2oz。分层倒入（糖浆最后注入）。</div>
+        <div class="item-details">🍊 橙片</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>加勒比大都会 Caribbean Cosmo</span>
+          <span>- 酸甜果香 | 酒精度:中</span>
+        </div>
+        <div class="recipe">Malibu 0.5oz、伏特加 1oz、蔓越莓汁 1.5oz、柠檬汁 0.25oz。摇匀倒入马丁尼杯。</div>
+        <div class="item-details">🍈 青柠片</div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- 金酒类 -->
+  <div class="section">
+    <div class="illustration">
+      <img src="Gin.png" alt="Gin Glass Illustration" />
+    </div>
+    <div class="menu">
+      <div class="category">金酒类 Gin-based (Bombay Sapphire)</div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>蓝色女神 Blue Goddess</span>
+          <span>- 干爽果香 | 酒精度:中</span>
+        </div>
+        <div class="recipe">金酒 1.5oz、蓝橙糖浆 1oz、柠檬汁 0.5oz、气泡水适量。摇匀加冰，加气泡水。</div>
+        <div class="item-details">🍋 柠檬片</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>金色清晨 Golden Morning</span>
+          <span>- 酸甜中带酒感 | 酒精度:中</span>
+        </div>
+        <div class="recipe">金酒 1oz、橙汁 2oz、柠檬汁 0.25oz、石榴糖浆 0.5oz。搅拌后注入杯中。</div>
+        <div class="item-details">🍊 橙皮</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>金色苦橙 Orange Blossom</span>
+          <span>- 酒味浓烈，微甜 | 酒精度:高</span>
+        </div>
+        <div class="recipe">金酒 1.5oz、Triple Sec 1oz、橙汁 1oz。摇匀冷饮。</div>
+        <div class="item-details">🍊 橙片</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>热带琴汤尼 Tropical G&T</span>
+          <span>- 清爽酸甜 | 酒精度:中</span>
+        </div>
+        <div class="recipe">金酒 1oz、菠萝汁 2oz、柠檬汁 0.25oz、气泡水适量。加冰搅拌，补水。</div>
+        <div class="item-details">🍋 柠檬片</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>粉色佳人 Pink Lady</span>
+          <span>- 酸甜泡沫感 | 酒精度:中</span>
+        </div>
+        <div class="recipe">金酒 1.5oz、石榴糖浆 0.5oz、柠檬汁 0.25oz、少许蛋白泡沫（可省）。干摇+加冰摇匀。</div>
+        <div class="item-details">🍒 樱桃</div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- 龙舌兰类 -->
+  <div class="section reverse">
+    <div class="illustration">
+      <img src="Tequila.png" alt="Tequila Glass Illustration" />
+    </div>
+    <div class="menu">
+      <div class="category">龙舌兰类 Tequila-based (Espolòn)</div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>红日特调 Tequila Sunrise</span>
+          <span>- 视觉震撼，果香甜 | 酒精度:中</span>
+        </div>
+        <div class="recipe">龙舌兰 1.5oz、橙汁 2oz、石榴糖浆 0.5oz。分层倒入。</div>
+        <div class="item-details">🍊 橙片</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>龙舌兰日出变奏 Sunrise Remix</span>
+          <span>- 色彩丰富 | 酒精度:中</span>
+        </div>
+        <div class="recipe">龙舌兰 1oz、橙汁 1oz、蔓越莓汁 1oz、石榴糖浆 0.5oz。摇匀后加糖浆沉底。</div>
+        <div class="item-details">🍊 橙片</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>龙舌蓝海 Blue Agave Sea</span>
+          <span>- 酸爽带劲 | 酒精度:中</span>
+        </div>
+        <div class="recipe">龙舌兰 1oz、蓝橙糖浆 1oz、柠檬汁 0.5oz、气泡水适量。摇匀加冰，加气泡水。</div>
+        <div class="item-details">🍈 青柠片</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>龙椰玛格丽塔 Coco Margarita</span>
+          <span>- 椰香玛格丽塔 | 酒精度:高</span>
+        </div>
+        <div class="recipe">龙舌兰 1oz、Malibu 1oz、柠檬汁 0.5oz、Triple Sec 0.5oz。摇匀加冰。</div>
+        <div class="item-details">🧂 盐边杯</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>墨西哥大都会 Mexican Cosmo</span>
+          <span>- 酸甜中带辣感 | 酒精度:高</span>
+        </div>
+        <div class="recipe">龙舌兰 1oz、Triple Sec 0.5oz、蔓越莓汁 1.5oz、柠檬汁 0.25oz。摇匀倒入杯中。</div>
+        <div class="item-details">🍈 青柠片</div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- 混合基酒类 -->
+  <div class="section">
+    <div class="illustration">
+      <img src="Mixed.png" alt="Mixed Cocktail Illustration" />
+    </div>
+    <div class="menu">
+      <div class="category">混合基酒类 Mixed-base Cocktails</div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>热带炸弹 Tropical Bomb</span>
+          <span>- 多果味，清甜 | 酒精度:中</span>
+        </div>
+        <div class="recipe">伏特加 1oz、Malibu 1oz、橙汁 2oz、蓝橙糖浆 0.5oz。摇匀加冰。</div>
+        <div class="item-details">🍊 橙片</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>加勒比电蓝 Caribbean Electric</span>
+          <span>- 酸爽强烈 | 酒精度:高</span>
+        </div>
+        <div class="recipe">龙舌兰 1oz、金酒 1oz、蓝橙糖浆 1oz、柠檬汁 0.5oz。摇匀加冰。</div>
+        <div class="item-details">🌿 薄荷</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>粉色马丁尼 Pink Martini</span>
+          <span>- 酒感强，略甜 | 酒精度:高</span>
+        </div>
+        <div class="recipe">伏特加 1oz、金酒 1oz、蔓越莓汁 1.5oz、石榴糖浆 0.25oz。干摇加冰过滤。</div>
+        <div class="item-details">🍋 柠檬皮</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>蓝梦幻境 Blue Mirage</span>
+          <span>- 花果香浓郁 | 酒精度:中</span>
+        </div>
+        <div class="recipe">金酒 1oz、Malibu 1oz、蓝橙糖浆 1oz、菠萝汁 1.5oz。摇匀加冰。</div>
+        <div class="item-details">🌿 薄荷叶</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>热带长岛变奏 Island Tea Remix</span>
+          <span>- 非常烈 | 酒精度:高</span>
+        </div>
+        <div class="recipe">伏特加 0.5oz、金酒 0.5oz、龙舌兰 0.5oz、Malibu 0.5oz、Triple Sec 0.5oz、柠檬汁 0.5oz、气泡水适量。</div>
+        <div class="item-details">🍋 柠檬片</div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- 无酒精饮品类 -->
+  <div class="section reverse">
+    <div class="illustration">
+      <img src="Mocktails.png" alt="Mocktails Illustration" />
+    </div>
+    <div class="menu">
+      <div class="category">无酒精饮品类 Mocktails</div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>热带清晨 Tropical Sunrise</span>
+          <span>- 色彩亮丽，酸甜 | 酒精度:无</span>
+        </div>
+        <div class="recipe">菠萝汁 2oz、橙汁 1oz、石榴糖浆 0.5oz、气泡水适量。分层倒入。</div>
+        <div class="item-details">🍊 橙片</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>蓝色精灵 Blue Sprite</span>
+          <span>- 清新微甜 | 酒精度:无</span>
+        </div>
+        <div class="recipe">蓝橙糖浆 1oz、柠檬汁 0.5oz、气泡水适量。搅拌冷饮。</div>
+        <div class="item-details">🍋 柠檬片</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>柠檬蔓越莓爽 Cran-Lemon Spark</span>
+          <span>- 酸爽开胃 | 酒精度:无</span>
+        </div>
+        <div class="recipe">蔓越莓汁 2oz、柠檬汁 0.5oz、气泡水适量。搅拌加冰。</div>
+        <div class="item-details">🌿 薄荷叶</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>椰子乐园 Coconut Punch</span>
+          <span>- 椰果味浓 | 酒精度:无</span>
+        </div>
+        <div class="recipe">菠萝汁 2oz、橙汁 1oz、椰浆/椰子糖浆（选用）。摇匀加冰。</div>
+        <div class="item-details">🍍 菠萝片</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>柑橘苏打 Citrus Fizz</span>
+          <span>- 清新柑橘味 | 酒精度:无</span>
+        </div>
+        <div class="recipe">橙汁 1.5oz、柠檬汁 0.5oz、气泡水适量、石榴糖浆少许。搅拌冷饮。</div>
+        <div class="item-details">🍊 橙皮</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align: center; margin-top: 50px; font-style: italic; color: #6b6b6b;">
+    &copy; 2025 老头调酒馆 | 用心调一杯你的味道 🍹
+  </div>
+</body>
+</html>
