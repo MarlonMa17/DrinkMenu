@@ -1,0 +1,888 @@
+{
+  "categories": [
+    {
+      "id": "sweet",
+      "name": {
+        "zh": "清新甜美类 Sweet & Refreshing",
+        "en": "Sweet & Refreshing"
+      },
+      "alcohol": {
+        "zh": "酒精度:低-中",
+        "en": "Alcohol: Low-Medium"
+      },
+      "image": "sweet.png",
+      "layout": "normal",
+      "cocktails": [
+        {
+          "emoji": "🍹",
+          "name": {
+            "zh": "椰林飘香 Pina Colada",
+            "en": "Coconut Paradise Pina Colada"
+          },
+          "description": {
+            "zh": "朗姆菠萝汁",
+            "en": "Rum & Pineapple"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "椰子朗姆 2oz、菠萝汁 3oz、椰奶 1oz、加冰摇匀。",
+            "en": "Coconut rum 2oz, pineapple juice 3oz, coconut milk 1oz, shake with ice."
+          },
+          "garnish": {
+            "zh": "菠萝装饰",
+            "en": "Pineapple garnish"
+          }
+        },
+        {
+          "emoji": "🍹",
+          "name": {
+            "zh": "螺丝起子 Screwdriver",
+            "en": "Classic Screwdriver"
+          },
+          "description": {
+            "zh": "橙香甜美",
+            "en": "Orange Sweetness"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "伏特加 1.5oz、橙汁 4oz。搅拌均匀加冰。",
+            "en": "Vodka 1.5oz, orange juice 4oz. Stir well with ice."
+          },
+          "garnish": {
+            "zh": "橙片装饰",
+            "en": "Orange slice garnish"
+          }
+        },
+        {
+          "emoji": "🍹",
+          "name": {
+            "zh": "蓝色夏威夷 Blue Hawaii",
+            "en": "Blue Hawaii"
+          },
+          "description": {
+            "zh": "蓝色梦幻",
+            "en": "Azure Dream"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "白朗姆 1.5oz、椰子朗姆 0.5oz、蓝橙 0.5oz、柠檬汁 0.5oz、菠萝汁 1.75oz。摇匀加冰。",
+            "en": "White rum 1.5oz, coconut rum 0.5oz, blue curaçao 0.5oz, lemon juice 0.5oz, pineapple juice 1.75oz. Shake with ice."
+          },
+          "garnish": {
+            "zh": "柠檬片装饰",
+            "en": "Lemon slice garnish"
+          }
+        },
+        {
+          "emoji": "🍹",
+          "name": {
+            "zh": "绿野仙踪 Green Wonderland",
+            "en": "Green Wonderland"
+          },
+          "description": {
+            "zh": "绿色清爽",
+            "en": "Emerald Fresh"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "金酒 1.5oz、绿葡萄糖浆 0.5oz、青柠汁 0.75oz、摇匀加冰、苏打水补满。",
+            "en": "Gin 1.5oz, green grape syrup 0.5oz, lime juice 0.75oz, shake with ice, top with soda water."
+          },
+          "garnish": {
+            "zh": "青柠片和薄荷叶",
+            "en": "Lime wheel and mint leaves"
+          }
+        },
+        {
+          "emoji": "🍹",
+          "name": {
+            "zh": "热带风情 Tropical Passion",
+            "en": "Tropical Passion"
+          },
+          "description": {
+            "zh": "番石榴香甜",
+            "en": "Guava Sweet"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "椰子朗姆酒 1.5oz、番石榴糖浆 0.25oz、菠萝汁 2oz、青柠汁 0.5oz、。摇匀加冰。",
+            "en": "Coconut rum 1.5oz, guava syrup 0.25oz, pineapple juice 2oz, lime juice 0.5oz. Shake with ice."
+          },
+          "garnish": {
+            "zh": "菠萝片和薄荷叶装饰",
+            "en": "Pineapple wedge and mint garnish"
+          }
+        },
+        {
+          "emoji": "🍹",
+          "name": {
+            "zh": "自由古巴 Cuba Libre",
+            "en": "Cuba Libre"
+          },
+          "description": {
+            "zh": "可乐欢乐桶",
+            "en": "Cola Celebration"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "白朗姆 1.75oz、可乐 4oz、青柠汁 0.5oz。搅拌冷饮。",
+            "en": "White rum 1.75oz, cola 4oz, lime juice 0.5oz. Stir and serve cold."
+          },
+          "garnish": {
+            "zh": "青柠片装饰",
+            "en": "Lime wedge garnish"
+          }
+        },
+        {
+          "emoji": "🍹",
+          "name": {
+            "zh": "B-54燃情炸弹 B-54 Flame Bomber",
+            "en": "B-54 Flame Bomber"
+          },
+          "description": {
+            "zh": "视觉炸弹",
+            "en": "Visual Bomb"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "杯中 伏特加 0.5oz、蓝橙 0.5oz、雪碧7分满。子弹杯杯底蘸柠檬+盐、龙舌兰补满子弹杯、轻触酒液拿起再丢下",
+            "en": "Glass: vodka 0.5oz, blue curaçao 0.5oz, fill 70% with Sprite. Shot glass: rim with lemon and salt, fill with tequila, gently touch liquid then drop."
+          },
+          "garnish": {
+            "zh": "青柠角装饰",
+            "en": "Lime corner garnish"
+          }
+        }
+      ]
+    },
+    {
+      "id": "classic",
+      "name": {
+        "zh": "经典平衡类 Classic & Balanced",
+        "en": "Classic & Balanced"
+      },
+      "alcohol": {
+        "zh": "酒精度:中-高",
+        "en": "Alcohol: Medium-High"
+      },
+      "image": "Classic.png",
+      "layout": "reverse",
+      "cocktails": [
+        {
+          "emoji": "🍹",
+          "name": {
+            "zh": "龙舌兰日出 Tequila Sunrise",
+            "en": "Tequila Sunrise"
+          },
+          "description": {
+            "zh": "层次分明",
+            "en": "Layered Beauty"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "龙舌兰 1.5oz、柠檬汁 0.5oz、橙汁七成满。石榴糖浆倒入 0.25oz。",
+            "en": "Tequila 1.5oz, lemon juice 0.5oz, fill 70% with orange juice. Pour grenadine 0.25oz."
+          },
+          "garnish": {
+            "zh": "橙片装饰",
+            "en": "Orange slice garnish"
+          }
+        },
+        {
+          "emoji": "🍹",
+          "name": {
+            "zh": "金汤力 Gin and Tonic",
+            "en": "Gin & Tonic"
+          },
+          "description": {
+            "zh": "金酒经典",
+            "en": "Classic Gin"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "金酒 1.75oz、青柠汁 0.25oz、苦精 2滴。搅拌加冰。汤力水补满",
+            "en": "Gin 1.75oz, lime juice 0.25oz, bitters 2 drops. Stir with ice. Top with tonic water."
+          },
+          "garnish": {
+            "zh": "青柠角装饰",
+            "en": "Lime wedge garnish"
+          }
+        },
+        {
+          "emoji": "🍹",
+          "name": {
+            "zh": "血腥玛丽 Bloody Mary",
+            "en": "Bloody Mary"
+          },
+          "description": {
+            "zh": "番茄鲜味",
+            "en": "Tomato Savory"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "伏特加 1.5oz、番茄汁 4oz、苦精 2滴、柠檬汁 0.25oz、胡椒、盐、塔巴斯科辣椒酱。",
+            "en": "Vodka 1.5oz, tomato juice 4oz, bitters 2 drops, lemon juice 0.25oz, pepper, salt, Tabasco sauce."
+          },
+          "garnish": {
+            "zh": "薄荷叶装饰",
+            "en": "Mint leaves garnish"
+          }
+        },
+        {
+          "emoji": "🍹",
+          "name": {
+            "zh": "莫吉托 Mojito",
+            "en": "Mojito"
+          },
+          "description": {
+            "zh": "薄荷清香",
+            "en": "Minty Fresh"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "白朗姆 1.75oz、青柠汁 0.75oz、薄荷叶 8-10片、糖浆 0.5oz、苏打水 2oz。捣碎薄荷叶，加冰摇匀。",
+            "en": "White rum 1.75oz, lime juice 0.75oz, mint leaves 8-10, simple syrup 0.5oz, soda water 2oz. Muddle mint, shake with ice."
+          },
+          "garnish": {
+            "zh": "薄荷叶装饰",
+            "en": "Mint leaves garnish"
+          }
+        },
+        {
+          "emoji": "🥃",
+          "name": {
+            "zh": "大都会 Cosmopolitan",
+            "en": "Cosmopolitan"
+          },
+          "description": {
+            "zh": "果香清爽",
+            "en": "Fruity Fresh"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "伏特加 1.5oz、橙味利口酒 0.5oz、番石榴糖浆 0.5oz、青柠汁 0.75oz、蔓越莓汁 0.5oz。加冰摇匀。",
+            "en": "Vodka 1.5oz, orange liqueur 0.5oz, guava syrup 0.5oz, lime juice 0.75oz, cranberry juice 0.5oz. Shake with ice."
+          },
+          "garnish": {
+            "zh": "青柠片装饰",
+            "en": "Lime wheel garnish"
+          }
+        },
+        {
+          "emoji": "🥃",
+          "name": {
+            "zh": "威士忌酸 Whiskey Sour",
+            "en": "Whiskey Sour"
+          },
+          "description": {
+            "zh": "酸甜平衡",
+            "en": "Sweet & Sour Balance"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "威士忌 1.75oz、柠檬汁 1oz、糖浆 0.5oz、苦精 3滴。摇匀加冰。",
+            "en": "Whiskey 1.75oz, lemon juice 1oz, simple syrup 0.5oz, bitters 3 drops. Shake with ice."
+          },
+          "garnish": {
+            "zh": "柠檬片装饰",
+            "en": "Lemon wheel garnish"
+          }
+        }
+      ]
+    },
+    {
+      "id": "strong",
+      "name": {
+        "zh": "烈酒强劲类 Strong & Intense",
+        "en": "Strong & Intense"
+      },
+      "alcohol": {
+        "zh": "酒精度:高",
+        "en": "Alcohol: High"
+      },
+      "image": "Strong.png",
+      "layout": "normal",
+      "cocktails": [
+        {
+          "emoji": "🥃",
+          "name": {
+            "zh": "教父 Godfather",
+            "en": "Godfather"
+          },
+          "description": {
+            "zh": "威士忌杏仁",
+            "en": "Whiskey Almond"
+          },
+          "alcohol": {
+            "zh": "酒精度:高",
+            "en": "Alcohol: High"
+          },
+          "recipe": {
+            "zh": "威士忌 1.5oz、金酒 0.5oz、肉桂一根、苦精 2滴。搅拌加冰。",
+            "en": "Whiskey 1.5oz, gin 0.5oz, cinnamon stick, bitters 2 drops. Stir with ice."
+          },
+          "garnish": {
+            "zh": "肉桂棒装饰",
+            "en": "Cinnamon stick garnish"
+          }
+        },
+        {
+          "emoji": "🥃",
+          "name": {
+            "zh": "古典 Old Fashioned",
+            "en": "Old Fashioned"
+          },
+          "description": {
+            "zh": "威士忌古典",
+            "en": "Classic Whiskey"
+          },
+          "alcohol": {
+            "zh": "酒精度:高",
+            "en": "Alcohol: High"
+          },
+          "recipe": {
+            "zh": "威士忌 1.75oz、苦精 0.25oz、方糖 1块、苏打水 0.5oz。",
+            "en": "Whiskey 1.75oz, bitters 0.25oz, sugar cube 1, soda water 0.5oz."
+          },
+          "garnish": {
+            "zh": "橙皮装饰",
+            "en": "Orange peel garnish"
+          }
+        },
+        {
+          "emoji": "🥃",
+          "name": {
+            "zh": "曼哈顿 Manhattan",
+            "en": "Manhattan"
+          },
+          "description": {
+            "zh": "威士忌经典",
+            "en": "Whiskey Classic"
+          },
+          "alcohol": {
+            "zh": "酒精度:高",
+            "en": "Alcohol: High"
+          },
+          "recipe": {
+            "zh": "威士忌 1.75oz、味美思 0.75oz、苦精 3滴。搅拌加冰。",
+            "en": "Whiskey 1.75oz, vermouth 0.75oz, bitters 3 drops. Stir with ice."
+          },
+          "garnish": {
+            "zh": "樱桃装饰",
+            "en": "Cherry garnish"
+          }
+        },
+        {
+          "emoji": "🥃",
+          "name": {
+            "zh": "不归夜 Don't go home tonight",
+            "en": "Don't Go Home Tonight"
+          },
+          "description": {
+            "zh": "断片必饮",
+            "en": "Blackout Guaranteed"
+          },
+          "alcohol": {
+            "zh": "酒精度:高",
+            "en": "Alcohol: High"
+          },
+          "recipe": {
+            "zh": "朗姆 0.75oz、龙舌兰 0.75oz、威士忌 1.5oz",
+            "en": "Rum 0.75oz, tequila 0.75oz, whiskey 1.5oz"
+          },
+          "garnish": {
+            "zh": "可燃",
+            "en": "Flammable"
+          }
+        },
+        {
+          "emoji": "🍹",
+          "name": {
+            "zh": "长岛冰茶 Long Island Iced Tea",
+            "en": "Long Island Iced Tea"
+          },
+          "description": {
+            "zh": "果香清爽",
+            "en": "Fruity Fresh"
+          },
+          "alcohol": {
+            "zh": "酒精度:高",
+            "en": "Alcohol: High"
+          },
+          "recipe": {
+            "zh": "白朗姆 0.5oz、金酒 0.5oz、伏特加 0.5oz、龙舌兰 0.5oz、柠檬汁 0.25oz、可乐补满。",
+            "en": "White rum 0.5oz, gin 0.5oz, vodka 0.5oz, tequila 0.5oz, lemon juice 0.25oz, top with cola."
+          },
+          "garnish": {
+            "zh": "薄荷叶、柠檬片装饰",
+            "en": "Mint leaves, lemon slice garnish"
+          }
+        },
+        {
+          "emoji": "🍹",
+          "name": {
+            "zh": "明天见 See you tomorrow",
+            "en": "See You Tomorrow"
+          },
+          "description": {
+            "zh": "甜香酸爽",
+            "en": "Sweet & Sour"
+          },
+          "alcohol": {
+            "zh": "酒精度:高",
+            "en": "Alcohol: High"
+          },
+          "recipe": {
+            "zh": "白朗姆 0.5oz、金酒 0.5oz、伏特加 0.5oz、龙舌兰 0.5oz、蓝橙 0.5oz、青柠汁 0.25oz、雪碧补满。",
+            "en": "White rum 0.5oz, gin 0.5oz, vodka 0.5oz, tequila 0.5oz, blue curaçao 0.5oz, lime juice 0.25oz, top with Sprite."
+          },
+          "garnish": {
+            "zh": "薄荷叶、青柠片装饰",
+            "en": "Mint leaves, lime wheel garnish"
+          }
+        }
+      ]
+    },
+    {
+      "id": "premium",
+      "name": {
+        "zh": "精品特调类 Premium & Sophisticated",
+        "en": "Premium & Sophisticated"
+      },
+      "alcohol": {
+        "zh": "酒精度:中-高",
+        "en": "Alcohol: Medium-High"
+      },
+      "image": "Premium.png",
+      "layout": "reverse",
+      "cocktails": [
+        {
+          "emoji": "🍸",
+          "name": {
+            "zh": "吉姆雷特 Gimlet",
+            "en": "Gimlet"
+          },
+          "description": {
+            "zh": "金酒青柠",
+            "en": "Gin Lime"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "金酒 1.5oz、青柠汁 0.75oz、糖浆 0.25oz。摇匀去冰。",
+            "en": "Gin 1.5oz, lime juice 0.75oz, simple syrup 0.25oz. Shake and strain."
+          },
+          "garnish": {
+            "zh": "青柠片装饰",
+            "en": "Lime wheel garnish"
+          }
+        },
+        {
+          "emoji": "🍸",
+          "name": {
+            "zh": "马天尼 Martini",
+            "en": "Martini"
+          },
+          "description": {
+            "zh": "经典烈酒",
+            "en": "Classic Spirit"
+          },
+          "alcohol": {
+            "zh": "酒精度:高",
+            "en": "Alcohol: High"
+          },
+          "recipe": {
+            "zh": "金酒 2oz、干味美思 0.25oz、苦精 2滴、橄榄汁 0.25oz。摇匀去冰。",
+            "en": "Gin 2oz, dry vermouth 0.25oz, bitters 2 drops, olive brine 0.25oz. Shake and strain."
+          },
+          "garnish": {
+            "zh": "橄榄装饰",
+            "en": "Olive garnish"
+          }
+        },
+        {
+          "emoji": "🍸",
+          "name": {
+            "zh": "玛格丽特 Margarita",
+            "en": "Margarita"
+          },
+          "description": {
+            "zh": "龙舌兰经典",
+            "en": "Tequila Classic"
+          },
+          "alcohol": {
+            "zh": "酒精度:高",
+            "en": "Alcohol: High"
+          },
+          "recipe": {
+            "zh": "龙舌兰 2oz、橙味利口酒 1oz、青柠汁 1oz、苦精 1滴。摇匀去冰。",
+            "en": "Tequila 2oz, orange liqueur 1oz, lime juice 1oz, bitters 1 drop. Shake and strain."
+          },
+          "garnish": {
+            "zh": "青柠盐边装饰",
+            "en": "Lime salt rim garnish"
+          }
+        },
+        {
+          "emoji": "🍸",
+          "name": {
+            "zh": "床笫之间 Between The Sheets",
+            "en": "Between The Sheets"
+          },
+          "description": {
+            "zh": "天蝎座专属",
+            "en": "Scorpio Exclusive"
+          },
+          "alcohol": {
+            "zh": "酒精度:高",
+            "en": "Alcohol: High"
+          },
+          "recipe": {
+            "zh": "伏特加 1oz、白朗姆 1oz、橙味利口酒 1oz、柠檬汁 0.25oz。摇匀去冰。",
+            "en": "Vodka 1oz, white rum 1oz, orange liqueur 1oz, lemon juice 0.25oz. Shake and strain."
+          },
+          "garnish": {
+            "zh": "柠檬皮",
+            "en": "Lemon peel"
+          }
+        },
+        {
+          "emoji": "🍸",
+          "name": {
+            "zh": "少女的祈祷 maiden's Prayer",
+            "en": "Maiden's Prayer"
+          },
+          "description": {
+            "zh": "清香淡雅",
+            "en": "Light & Elegant"
+          },
+          "alcohol": {
+            "zh": "酒精度:高",
+            "en": "Alcohol: High"
+          },
+          "recipe": {
+            "zh": "金酒 2oz、橙味利口酒 1oz、柠檬汁 0.25oz。摇匀去冰。",
+            "en": "Gin 2oz, orange liqueur 1oz, lemon juice 0.25oz. Shake and strain."
+          },
+          "garnish": {
+            "zh": "柠檬皮",
+            "en": "Lemon peel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "newchinese",
+      "name": {
+        "zh": "新式调酒 New Chinese Style",
+        "en": "New Chinese Style"
+      },
+      "alcohol": {
+        "zh": "酒精度:低-中",
+        "en": "Alcohol: Low-Medium"
+      },
+      "image": "Mocktails.png",
+      "layout": "normal",
+      "cocktails": [
+        {
+          "emoji": "🥃",
+          "name": {
+            "zh": "棉花糖 Yogurt Cloud",
+            "en": "Cotton Candy Yogurt Cloud"
+          },
+          "description": {
+            "zh": "奶香甜美",
+            "en": "Creamy Sweet"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "蓝橙 1oz、 白朗姆 1oz、 养乐多。轻柔搅拌加冰。",
+            "en": "Blue curaçao 1oz, white rum 1oz, Yakult. Gently stir with ice."
+          },
+          "garnish": {
+            "zh": "薄荷叶装饰",
+            "en": "Mint leaves garnish"
+          }
+        },
+        {
+          "emoji": "🥃",
+          "name": {
+            "zh": "百利甜椰香饮 Baileys Coconut Splash",
+            "en": "Baileys Coconut Splash"
+          },
+          "description": {
+            "zh": "椰香甜美",
+            "en": "Coconut Sweet"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "百利甜 2oz、椰子水 3oz。轻柔搅拌加冰。",
+            "en": "Baileys 2oz, coconut water 3oz. Gently stir with ice."
+          },
+          "garnish": {
+            "zh": "薄荷叶装饰",
+            "en": "Mint leaves garnish"
+          }
+        },
+        {
+          "emoji": "🥃",
+          "name": {
+            "zh": "番茄花园 Tomato Garden",
+            "en": "Tomato Garden"
+          },
+          "description": {
+            "zh": "清爽蔬果香",
+            "en": "Fresh Veggie Aroma"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "番茄若干捣碎、橙子利口酒 1oz、伏特加 0.5oz、柠檬汁 0.25oz。摇匀加冰、补苏打水。",
+            "en": "Fresh tomatoes muddled, orange liqueur 1oz, vodka 0.5oz, lemon juice 0.25oz. Shake with ice, top with soda water."
+          },
+          "garnish": {
+            "zh": "番茄片、芹菜叶装饰",
+            "en": "Tomato slice, celery leaves garnish"
+          }
+        },
+        {
+          "emoji": "🍹",
+          "name": {
+            "zh": "银河 Milky Way",
+            "en": "Coral Sea"
+          },
+          "description": {
+            "zh": "浪漫星河",
+            "en": "Romantic Starry Sky"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "加冰加柠檬汁五分满、加葡萄汁至7分满。金酒 1oz、 蓝橙 0.5oz、加冰摇匀倒入",
+            "en": "Blue curaçao 0.25oz, vodka 0.25oz, fill 70% with lemonade. White rum 1.25oz, grenadine 0.15oz, lemonade 2oz, shake with ice and pour."
+          },
+          "garnish": {
+            "zh": "随意装饰",
+            "en": "Casual garnish"
+          }
+        },
+        {
+          "emoji": "🥃",
+          "name": {
+            "zh": "孤独的水母 Lonely Jellyfish",
+            "en": "Lonely Jellyfish"
+          },
+          "description": {
+            "zh": "视觉冲击",
+            "en": "Visual Impact"
+          },
+          "alcohol": {
+            "zh": "酒精度:高",
+            "en": "Alcohol: High"
+          },
+          "recipe": {
+            "zh": "蓝橙少量打底、橙味利口酒+伏特加10:1混合倒入、伏特加蓝橙10:1混合倒入、静止20秒、2滴奶酒。",
+            "en": "Layer blue curaçao at bottom, pour orange liqueur + vodka 10:1 mix, pour vodka + blue curaçao 10:1 mix, wait 20 seconds, add 2 drops cream liqueur."
+          },
+          "garnish": {
+            "zh": "子弹杯",
+            "en": "Shot glass"
+          }
+        },
+        {
+          "emoji": "🍃",
+          "name": {
+            "zh": "烟雨入江南 Misty Rain in Jiangnan",
+            "en": "Misty Rain in Jiangnan"
+          },
+          "description": {
+            "zh": "茶香雅韵",
+            "en": "Tea Elegance"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "加冰柠檬水打底7分、金酒 1oz、白朗姆 1oz、蓝橙 0.5oz、乌龙茶 1oz、摇匀倒入。",
+            "en": "Fill 70% with lemonade, gin 1oz, white rum 1oz, blue curaçao 0.5oz, oolong tea 1oz, shake and pour."
+          },
+          "garnish": {
+            "zh": "随意装饰",
+            "en": "Casual garnish"
+          }
+        },
+        {
+          "emoji": "🌸",
+          "name": {
+            "zh": "水雾生花 Misty Blossom",
+            "en": "Misty Blossom"
+          },
+          "description": {
+            "zh": "莓香清雅",
+            "en": "Berry Elegance"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "加冰柠檬水打底7分、伏特加 1oz、白朗姆 1oz、莓子汁 1.5oz、摇匀倒入。",
+            "en": "Fill 70% with lemonade, vodka 1oz, white rum 1oz, berry juice 1.5oz, shake and pour."
+          },
+          "garnish": {
+            "zh": "随意装饰",
+            "en": "Casual garnish"
+          }
+        },
+        {
+          "emoji": "🌹",
+          "name": {
+            "zh": "一丈红 Crimson Heights",
+            "en": "Crimson Heights"
+          },
+          "description": {
+            "zh": "紫韵醇香",
+            "en": "Purple Aroma"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "加冰柠檬水打底7分、伏特加 1oz、葡萄汁 1.5oz、摇匀倒入。",
+            "en": "Fill 70% with lemonade, vodka 1oz, grape juice 1.5oz, shake and pour."
+          },
+          "garnish": {
+            "zh": "随意装饰",
+            "en": "Casual garnish"
+          }
+        },
+        {
+          "emoji": "💰",
+          "name": {
+            "zh": "日进斗金 Golden Fortune",
+            "en": "Golden Fortune"
+          },
+          "description": {
+            "zh": "茶韵双雄",
+            "en": "Tea Twin Heroes"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "加冰柠檬水打底7分、金酒 1oz、伏特加 1oz、乌龙茶 1oz、 摇匀倒入。",
+            "en": "Fill 70% with lemonade, gin 1oz, vodka 1oz, oolong tea 1oz, shake and pour."
+          },
+          "garnish": {
+            "zh": "随意装饰",
+            "en": "Casual garnish"
+          }
+        },
+        {
+          "emoji": "💜",
+          "name": {
+            "zh": "紫烟 Purple Mist",
+            "en": "Purple Mist"
+          },
+          "description": {
+            "zh": "神秘紫韵",
+            "en": "Mysterious Purple"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "加冰柠檬水打底7分、伏特加 1oz、蓝橙 0.5oz、红石榴糖浆 0.25oz、 摇匀倒入。",
+            "en": "Fill 70% with lemonade, vodka 1oz, blue curaçao 0.5oz, red grenadine 0.25oz, shake and pour."
+          },
+          "garnish": {
+            "zh": "随意装饰",
+            "en": "Casual garnish"
+          }
+        },
+        {
+          "emoji": "🎨",
+          "name": {
+            "zh": "水墨丹青 Ink Painting",
+            "en": "Ink Painting"
+          },
+          "description": {
+            "zh": "艺术层次",
+            "en": "Artistic Layers"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "加冰柠檬水打底7分、白朗姆 1oz、蓝橙 0.5oz、葡萄汁 0.5oz、摇匀倒入 。",
+            "en": "Fill 70% with lemonade, white rum 1oz, blue curaçao 0.5oz, grape juice 0.5oz, shake and pour."
+          },
+          "garnish": {
+            "zh": "随意装饰",
+            "en": "Casual garnish"
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "zh": "老头调酒馆 | 用心调一杯你爱的味道",
+    "en": "Old Man's Cocktail Bar | Crafting Your Favorite Flavors with Love"
+  }
+}
