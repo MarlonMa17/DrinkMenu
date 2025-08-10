@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cocktail Menu</title>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cocktail Menu</title>
+<style>
     body {
       background: #f3e6c5;
       font-family: 'Georgia', serif;
@@ -24,6 +25,23 @@
       margin-bottom: 40px;
       letter-spacing: 2px;
       color: #2f3e30;
+    }
+
+    .loading {
+      text-align: center;
+      font-size: 1.2em;
+      color: #6b6b6b;
+      margin: 50px 0;
+    }
+
+    .error {
+      text-align: center;
+      font-size: 1.1em;
+      color: #d32f2f;
+      margin: 50px 0;
+      padding: 20px;
+      background: #ffebee;
+      border-radius: 5px;
     }
 
     .section {
@@ -98,6 +116,13 @@
       margin: 40px 0;
     }
 
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      font-style: italic;
+      color: #6b6b6b;
+    }
+
     @media (max-width: 768px) {
       .section, .section.reverse {
         flex-direction: column;
@@ -114,428 +139,162 @@
       }
     }
   </style>
+
+<style>
+    #language-toggle {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .lang-btn {
+      background: #e0dfdf;
+      border: none;
+      padding: 8px 16px;
+      margin: 0 6px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 1em;
+      box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+
+    .lang-btn:hover {
+      background: #d6cfcf;
+    }
+
+    .lang-btn.active {
+      background: #2c2c2c;
+      color: #fff;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-  <h1>726园区 | 726 Garden</h1>
-
-  <!-- 清新甜美类 -->
-  <div class="section">
-    <div class="illustration">
-      <img src="sweet.png" alt="Sweet Cocktails Illustration" />
-    </div>
-    <div class="menu">
-      <div class="category">清新甜美类 Sweet & Refreshing | 酒精度:低-中<br>Sweet & Refreshing | Alcohol: Low-Medium</div>
-
-      <div class="item">
-        <div class="item-header">
-          🍹椰林飘香 Pina Colada - 朗姆菠萝汁 | 酒精度:低<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Coconut Paradise Pina Colada - Rum & Pineapple | Alcohol: Low
-        </div>
-        <div class="recipe">椰子朗姆 2oz、菠萝汁 3oz、椰奶 1oz、加冰摇匀。<br>
-        Coconut rum 2oz, pineapple juice 3oz, coconut milk 1oz, shake with ice.</div>
-        <div class="item-details">菠萝装饰 | Pineapple garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🍹螺丝起子 Screwdriver - 橙香甜美 | 酒精度:低<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Classic Screwdriver - Orange Sweetness | Alcohol: Low
-        </div>
-        <div class="recipe">伏特加 1.5oz、橙汁 4oz。搅拌均匀加冰。<br>
-        Vodka 1.5oz, orange juice 4oz. Stir well with ice.</div>
-        <div class="item-details">橙片装饰 | Orange slice garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🍹蓝色夏威夷 Blue Hawaii - 蓝色梦幻 | 酒精度:低<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Blue Hawaii - Azure Dream | Alcohol: Low
-        </div>
-        <div class="recipe">白朗姆 1.5oz、椰子朗姆 0.5oz、蓝橙 0.5oz、柠檬汁 0.5oz、菠萝汁 1.75oz。摇匀加冰。<br>
-        White rum 1.5oz, coconut rum 0.5oz, blue curaçao 0.5oz, lemon juice 0.5oz, pineapple juice 1.75oz. Shake with ice.</div>
-        <div class="item-details">柠檬片装饰 | Lemon slice garnish</div>
-      </div>
-
-       <div class="item">
-        <div class="item-header">
-          🍹绿野仙踪 Green Wonderland - 绿色清爽 | 酒精度:低<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Green Wonderland - Emerald Fresh | Alcohol: Low
-        </div>
-        <div class="recipe">金酒 1.5oz、绿葡萄糖浆 0.5oz、青柠汁 0.75oz、摇匀加冰、苏打水补满。<br>
-        Gin 1.5oz, green grape syrup 0.5oz, lime juice 0.75oz, shake with ice, top with soda water.</div>
-        <div class="item-details">青柠片和薄荷叶 | Lime wheel and mint leaves</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🍹热带风情 Tropical Passion - 番石榴香甜 | 酒精度:低<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Tropical Passion - Guava Sweet | Alcohol: Low
-        </div>
-        <div class="recipe">椰子朗姆酒 1.5oz、番石榴糖浆 0.25oz、菠萝汁 2oz、青柠汁 0.5oz、。摇匀加冰。<br>
-        Coconut rum 1.5oz, guava syrup 0.25oz, pineapple juice 2oz, lime juice 0.5oz. Shake with ice.</div>
-        <div class="item-details">菠萝片和薄荷叶装饰 | Pineapple wedge and mint garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🍹自由古巴 Cuba Libre - 可乐欢乐桶 | 酒精度:中<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Cuba Libre - Cola Celebration | Alcohol: Medium
-        </div>
-        <div class="recipe">白朗姆 1.75oz、可乐 4oz、青柠汁 0.5oz。搅拌冷饮。<br>
-        White rum 1.75oz, cola 4oz, lime juice 0.5oz. Stir and serve cold.</div>
-        <div class="item-details">青柠片装饰 | Lime wedge garnish</div>
-      </div>
-
-       <div class="item">
-        <div class="item-header">
-          🍹B-54燃情炸弹 B-54 Flame Bomber - 视觉炸弹 | 酒精度:中<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;B-54 Flame Bomber - Visual Bomb | Alcohol: Medium
-        </div>
-        <div class="recipe">杯中 伏特加 0.5oz、蓝橙 0.5oz、雪碧7分满。<br>
-        子弹杯杯底蘸柠檬+盐、龙舌兰补满子弹杯、轻触酒液拿起再丢下<br>
-        Glass: vodka 0.5oz, blue curaçao 0.5oz, fill 70% with Sprite.<br>
-        Shot glass: rim with lemon and salt, fill with tequila, gently touch liquid then drop.</div>
-        <div class="item-details">青柠角装饰 | Lime corner garnish</div>
-      </div>
-    </div>
-    
+<h1>726园区 | 726 Garden</h1>
+<div class="loading" id="loading">
+    正在加载菜单... | Loading menu...
   </div>
-  <hr>
-
-  <!-- 经典平衡类 -->
-  <div class="section reverse">
-    <div class="illustration">
-      <img src="Classic.png" alt="Classic Cocktails Illustration" />
-    </div>
-    <div class="menu">
-      <div class="category">经典平衡类 Classic & Balanced | 酒精度:中-高<br>Classic & Balanced | Alcohol: Medium-High</div>
-
-      <div class="item">
-        <div class="item-header">
-          🍹龙舌兰日出 Tequila Sunrise - 层次分明 | 酒精度:低<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Tequila Sunrise - Layered Beauty | Alcohol: Low
-        </div>
-        <div class="recipe">龙舌兰 1.5oz、柠檬汁 0.5oz、橙汁七成满。石榴糖浆倒入 0.25oz。<br>
-        Tequila 1.5oz, lemon juice 0.5oz, fill 70% with orange juice. Pour grenadine 0.25oz.</div>
-        <div class="item-details">橙片装饰 | Orange slice garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🍹金汤力 Gin and Tonic - 金酒经典 | 酒精度:低<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Gin & Tonic - Classic Gin | Alcohol: Low
-        </div>
-        <div class="recipe">金酒 1.75oz、青柠汁 0.25oz、苦精 2滴。搅拌加冰。汤力水补满<br>
-        Gin 1.75oz, lime juice 0.25oz, bitters 2 drops. Stir with ice. Top with tonic water.</div>
-        <div class="item-details">青柠角装饰 | Lime wedge garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🍹血腥玛丽 Bloody Mary - 番茄鲜味 | 酒精度:中<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Bloody Mary - Tomato Savory | Alcohol: Medium
-        </div>
-        <div class="recipe">伏特加 1.5oz、番茄汁 4oz、苦精 2滴、柠檬汁 0.25oz、胡椒、盐、塔巴斯科辣椒酱。<br>
-        Vodka 1.5oz, tomato juice 4oz, bitters 2 drops, lemon juice 0.25oz, pepper, salt, Tabasco sauce.</div>
-        <div class="item-details">薄荷叶装饰 | Mint leaves garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🍹莫吉托 Mojito - 薄荷清香 | 酒精度:中<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Mojito - Minty Fresh | Alcohol: Medium
-        </div>
-        <div class="recipe">白朗姆 1.75oz、青柠汁 0.75oz、薄荷叶 8-10片、糖浆 0.5oz、苏打水 2oz。捣碎薄荷叶，加冰摇匀。<br>
-        White rum 1.75oz, lime juice 0.75oz, mint leaves 8-10, simple syrup 0.5oz, soda water 2oz. Muddle mint, shake with ice.</div>
-        <div class="item-details">薄荷叶装饰 | Mint leaves garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🥃大都会 Cosmopolitan - 果香清爽 | 酒精度:中<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Cosmopolitan - Fruity Fresh | Alcohol: Medium
-        </div>
-        <div class="recipe">伏特加 1.5oz、橙味利口酒 0.5oz、番石榴糖浆 0.5oz、青柠汁 0.75oz、蔓越莓汁 0.5oz。加冰摇匀。<br>
-        Vodka 1.5oz, orange liqueur 0.5oz, guava syrup 0.5oz, lime juice 0.75oz, cranberry juice 0.5oz. Shake with ice.</div>
-        <div class="item-details">青柠片装饰 | Lime wheel garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🥃威士忌酸 Whiskey Sour - 酸甜平衡 | 酒精度:中<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Whiskey Sour - Sweet & Sour Balance | Alcohol: Medium
-        </div>
-        <div class="recipe">威士忌 1.75oz、柠檬汁 1oz、糖浆 0.5oz、苦精 3滴。摇匀加冰。<br>
-        Whiskey 1.75oz, lemon juice 1oz, simple syrup 0.5oz, bitters 3 drops. Shake with ice.</div>
-        <div class="item-details">柠檬片装饰 | Lemon wheel garnish</div>
-      </div>
-    </div>
+<div id="language-toggle" style="margin-bottom: 20px;">
+<button class="lang-btn" id="lang-zh">中文</button>
+<button class="lang-btn" id="lang-en">English</button>
+</div>
+<div id="filter-section" style="margin-bottom: 30px;">
+<label><strong>喜欢的基酒类型（可多选）:</strong></label><br/>
+<label><input class="filter-checkbox" type="checkbox" value="朗姆"/> 朗姆</label>
+<label><input class="filter-checkbox" type="checkbox" value="伏特加"/> 伏特加</label>
+<label><input class="filter-checkbox" type="checkbox" value="龙舌兰"/> 龙舌兰</label>
+<label><input class="filter-checkbox" type="checkbox" value="威士忌"/> 威士忌</label>
+<label><input class="filter-checkbox" type="checkbox" value="金酒"/> 金酒</label>
+</div>
+<div class="error" id="error" style="display: none;">
+    菜单加载失败，请刷新页面重试。<br/>
+    Failed to load menu, please refresh the page and try again.
   </div>
+<div id="menu-content"></div>
 
-  <hr>
 
-  <!-- 烈酒强劲类 -->
-  <div class="section">
-    <div class="illustration">
-      <img src="Strong.png" alt="Strong Cocktails Illustration" />
-    </div>
-    <div class="menu">
-      <div class="category">烈酒强劲类 Strong & Intense | 酒精度:高<br>Strong & Intense | Alcohol: High</div>
+<script>
+    let currentLang = 'zh';
 
-      <div class="item">
-        <div class="item-header">
-          🥃教父 Godfather - 威士忌杏仁 | 酒精度:高<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Godfather - Whiskey Almond | Alcohol: High
+    async function loadMenu() {
+      try {
+        const response = await fetch('Recipes.json');
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const data = await response.json();
+        window.allCategories = data.categories;
+        window.footerData = data.footer;
+        applyFilters();
+        document.getElementById('loading').style.display = 'none';
+      } catch (error) {
+        console.error('Error loading menu:', error);
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('error').style.display = 'block';
+      }
+    }
+
+    function applyFilters() {
+      const selectedBases = Array.from(document.querySelectorAll('.filter-checkbox:checked')).map(cb => cb.value);
+      const menuContent = document.getElementById('menu-content');
+      let html = '';
+
+      window.allCategories.forEach((category, index) => {
+        const filteredCocktails = category.cocktails.filter(cocktail => {
+          const recipe = cocktail.recipe.zh;
+          if (selectedBases.length === 0) return true;
+          return selectedBases.some(spirit => recipe.includes(spirit));
+        });
+
+        if (filteredCocktails.length === 0) return;
+
+        const isReverse = category.layout === 'reverse';
+        html += `
+          <div class="section${isReverse ? ' reverse' : ''}">
+            <div class="illustration">
+              <img src="${category.image}" alt="${category.name[currentLang]}" onerror="this.style.display='none'" />
+            </div>
+            <div class="menu">
+              <div class="category">
+                ${category.name[currentLang]}<br>
+                ${category.alcohol[currentLang]}
+              </div>
+              ${renderCocktails(filteredCocktails)}
+            </div>
+          </div>
+        `;
+
+        if (index < window.allCategories.length - 1) {
+          html += '<hr>';
+        }
+      });
+
+      html += `
+        <hr>
+        <div class="footer">
+          &copy; 2025 ${window.footerData[currentLang]} 🍹
         </div>
-        <div class="recipe">威士忌 1.5oz、金酒 0.5oz、肉桂一根、苦精 2滴。搅拌加冰。<br>
-        Whiskey 1.5oz, gin 0.5oz, cinnamon stick, bitters 2 drops. Stir with ice.</div>
-        <div class="item-details">肉桂棒装饰 | Cinnamon stick garnish</div>
-      </div>
+      `;
 
-      <div class="item">
-        <div class="item-header">
-          🥃古典 Old Fashioned - 威士忌古典 | 酒精度:高<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Old Fashioned - Classic Whiskey | Alcohol: High
+      menuContent.innerHTML = html;
+    }
+
+    function renderCocktails(cocktails) {
+      return cocktails.map(cocktail => `
+        <div class="item">
+          <div class="item-header">
+            ${cocktail.emoji}${cocktail.name[currentLang]} - ${cocktail.description[currentLang]} | ${cocktail.alcohol[currentLang]}
+          </div>
+          <div class="recipe">${cocktail.recipe[currentLang]}</div>
+          <div class="item-details">${cocktail.garnish[currentLang]}</div>
         </div>
-        <div class="recipe">威士忌 1.75oz、苦精 0.25oz、方糖 1块、苏打水 0.5oz。<br>
-        Whiskey 1.75oz, bitters 0.25oz, sugar cube 1, soda water 0.5oz.</div>
-        <div class="item-details">橙皮装饰 | Orange peel garnish</div>
-      </div>
+      `).join('');
+    }
 
-      <div class="item">
-        <div class="item-header">
-          🥃曼哈顿 Manhattan - 威士忌经典 | 酒精度:高<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Manhattan - Whiskey Classic | Alcohol: High
-        </div>
-        <div class="recipe">威士忌 1.75oz、味美思 0.75oz、苦精 3滴。搅拌加冰。<br>
-        Whiskey 1.75oz, vermouth 0.75oz, bitters 3 drops. Stir with ice.</div>
-        <div class="item-details">樱桃装饰 | Cherry garnish</div>
-      </div>
+    function setActiveLangButton() {
+      document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+      document.getElementById('lang-' + currentLang).classList.add('active');
+    }
 
-      <div class="item">
-        <div class="item-header">
-          🥃不归夜 Don't go home tonight - 断片必饮 | 酒精度:高<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Don't Go Home Tonight - Blackout Guaranteed | Alcohol: High
-        </div>
-        <div class="recipe">朗姆 0.75oz、龙舌兰 0.75oz、威士忌 1.5oz<br>
-        Rum 0.75oz, tequila 0.75oz, whiskey 1.5oz</div>
-        <div class="item-details">可燃 | Flammable</div>
-      </div>
+    document.addEventListener('DOMContentLoaded', () => {
+      loadMenu();
 
-      <div class="item">
-        <div class="item-header">
-          🍹长岛冰茶 Long Island Iced Tea - 果香清爽 | 酒精度:高<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Long Island Iced Tea - Fruity Fresh | Alcohol: High
-        </div>
-        <div class="recipe">白朗姆 0.5oz、金酒 0.5oz、伏特加 0.5oz、龙舌兰 0.5oz、柠檬汁 0.25oz、可乐补满。<br>
-        White rum 0.5oz, gin 0.5oz, vodka 0.5oz, tequila 0.5oz, lemon juice 0.25oz, top with cola.</div>
-        <div class="item-details">薄荷叶、柠檬片装饰 | Mint leaves, lemon slice garnish</div>
-      </div>
+      document.querySelectorAll('.filter-checkbox').forEach(cb => {
+        cb.addEventListener('change', applyFilters);
+      });
 
-          <div class="item">
-        <div class="item-header">
-          🍹明天见 See you tomorrow - 甜香酸爽 | 酒精度:高<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;See You Tomorrow - Sweet & Sour | Alcohol: High
-        </div>
-        <div class="recipe">白朗姆 0.5oz、金酒 0.5oz、伏特加 0.5oz、龙舌兰 0.5oz、蓝橙 0.5oz、青柠汁 0.25oz、雪碧补满。<br>
-        White rum 0.5oz, gin 0.5oz, vodka 0.5oz, tequila 0.5oz, blue curaçao 0.5oz, lime juice 0.25oz, top with Sprite.</div>
-        <div class="item-details">薄荷叶、青柠片装饰 | Mint leaves, lime wheel garnish</div>
-      </div>
+      document.getElementById('lang-zh').addEventListener('click', () => {
+        currentLang = 'zh';
+        setActiveLangButton();
+        applyFilters();
+      });
 
-    </div>
-  </div>
+      document.getElementById('lang-en').addEventListener('click', () => {
+        currentLang = 'en';
+        setActiveLangButton();
+        applyFilters();
+      });
 
-  <hr>
-
-  <!-- 精品特调类 -->
-  <div class="section reverse">
-    <div class="illustration">
-      <img src="Premium.png" alt="Premium Cocktails Illustration" />
-    </div>
-    <div class="menu">
-      <div class="category">精品特调类 Premium & Sophisticated | 酒精度:中-高<br>Premium & Sophisticated | Alcohol: Medium-High</div>
-
-      <div class="item">
-        <div class="item-header">
-          🍸吉姆雷特 Gimlet - 金酒青柠 | 酒精度:中<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Gimlet - Gin Lime | Alcohol: Medium
-        </div>
-        <div class="recipe">金酒 1.5oz、青柠汁 0.75oz、糖浆 0.25oz。摇匀去冰。<br>
-        Gin 1.5oz, lime juice 0.75oz, simple syrup 0.25oz. Shake and strain.</div>
-        <div class="item-details">青柠片装饰 | Lime wheel garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🍸马天尼 Martini - 经典烈酒 | 酒精度:高<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Martini - Classic Spirit | Alcohol: High
-        </div>
-        <div class="recipe">金酒 2oz、干味美思 0.25oz、苦精 2滴、橄榄汁 0.25oz。摇匀去冰。<br>
-        Gin 2oz, dry vermouth 0.25oz, bitters 2 drops, olive brine 0.25oz. Shake and strain.</div>
-        <div class="item-details">橄榄装饰 | Olive garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🍸玛格丽特 Margarita - 龙舌兰经典 | 酒精度:高<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Margarita - Tequila Classic | Alcohol: High
-        </div>
-        <div class="recipe">龙舌兰 2oz、橙味利口酒 1oz、青柠汁 1oz、苦精 1滴。摇匀去冰。<br>
-        Tequila 2oz, orange liqueur 1oz, lime juice 1oz, bitters 1 drop. Shake and strain.</div>
-        <div class="item-details">青柠盐边装饰 | Lime salt rim garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🍸床笫之间 Between The Sheets - 天蝎座专属 | 酒精度:高<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Between The Sheets - Scorpio Exclusive | Alcohol: High
-        </div>
-        <div class="recipe">伏特加 1oz、白朗姆 1oz、橙味利口酒 1oz、柠檬汁 0.25oz。摇匀去冰。<br>
-        Vodka 1oz, white rum 1oz, orange liqueur 1oz, lemon juice 0.25oz. Shake and strain.</div>
-        <div class="item-details">柠檬皮 | Lemon peel</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🍸少女的祈祷 maiden's Prayer - 清香淡雅 | 酒精度:高<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Maiden's Prayer - Light & Elegant | Alcohol: High
-        </div>
-        <div class="recipe">金酒 2oz、橙味利口酒 1oz、柠檬汁 0.25oz。摇匀去冰。<br>
-        Gin 2oz, orange liqueur 1oz, lemon juice 0.25oz. Shake and strain.</div>
-        <div class="item-details">柠檬皮 | Lemon peel</div>
-      </div>
-    </div>
-  </div>
-
-  <hr>
-
-  <!-- 新式调酒类 -->
-  <div class="section">
-    <div class="illustration">
-      <img src="Mocktails.png" alt="New Chinese Style Cocktails Illustration" />
-    </div>
-    <div class="menu">
-      <div class="category">新式调酒 New Chinese Style | 酒精度:低-中<br>New Chinese Style | Alcohol: Low-Medium</div>
-
-      <div class="item">
-        <div class="item-header">
-          🥃棉花糖 Yogurt Cloud - 奶香甜美 | 酒精度:低<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Cotton Candy Yogurt Cloud - Creamy Sweet | Alcohol: Low
-        </div>
-        <div class="recipe">蓝橙 1oz、 白朗姆 1oz、 养乐多。轻柔搅拌加冰。<br>
-        Blue curaçao 1oz, white rum 1oz, Yakult. Gently stir with ice.</div>
-        <div class="item-details">薄荷叶装饰 | Mint leaves garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🥃百利甜椰香饮 Baileys Coconut Splash - 椰香甜美 | 酒精度:低<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Baileys Coconut Splash - Coconut Sweet | Alcohol: Low
-        </div>
-        <div class="recipe">百利甜 2oz、椰子水 3oz。轻柔搅拌加冰。<br>
-        Baileys 2oz, coconut water 3oz. Gently stir with ice.</div>
-        <div class="item-details">薄荷叶装饰 | Mint leaves garnish</div>
-      </div>
-
-       <div class="item">
-        <div class="item-header">
-          🥃番茄花园 Tomato Garden - 清爽蔬果香 | 酒精度:低<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Tomato Garden - Fresh Veggie Aroma | Alcohol: Low
-        </div>
-        <div class="recipe">番茄若干捣碎、橙子利口酒 1oz、伏特加 0.5oz、柠檬汁 0.25oz。摇匀加冰、补苏打水。<br>
-        Fresh tomatoes muddled, orange liqueur 1oz, vodka 0.5oz, lemon juice 0.25oz. Shake with ice, top with soda water.</div>
-        <div class="item-details">番茄片、芹菜叶装饰 | Tomato slice, celery leaves garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🍹珊瑚海 Coral Sea - 美艳分层 | 酒精度:中<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Coral Sea - Beautiful Layers | Alcohol: Medium
-        </div>
-        <div class="recipe">蓝橙 0.25oz、伏特加 0.25oz、加柠檬水至7分满。白朗姆 1.25oz、 石榴糖浆 0.15oz、柠檬水 2oz、加冰摇匀倒入<br>
-        Blue curaçao 0.25oz, vodka 0.25oz, fill 70% with lemonade. White rum 1.25oz, grenadine 0.15oz, lemonade 2oz, shake with ice and pour.</div>
-        <div class="item-details">随意装饰 | Casual garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🥃孤独的水母 Lonely Jellyfish - 视觉冲击 | 酒精度:高<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Lonely Jellyfish - Visual Impact | Alcohol: High
-        </div>
-        <div class="recipe">蓝橙少量打底、橙味利口酒+伏特加10:1混合倒入、伏特加蓝橙10:1混合倒入、静止20秒、2滴奶酒。<br>
-        Layer blue curaçao at bottom, pour orange liqueur + vodka 10:1 mix, pour vodka + blue curaçao 10:1 mix, wait 20 seconds, add 2 drops cream liqueur.</div>
-        <div class="item-details">子弹杯 | Shot glass</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🍃烟雨入江南 Misty Rain in Jiangnan - 茶香雅韵 | 酒精度:中<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Misty Rain in Jiangnan - Tea Elegance | Alcohol: Medium
-        </div>
-        <div class="recipe">柠檬水打底7分、金酒 1oz、白朗姆 1oz、蓝橙 0.5oz、乌龙茶 1oz、摇匀倒入。<br>
-        Fill 70% with lemonade, gin 1oz, white rum 1oz, blue curaçao 0.5oz, oolong tea 1oz, shake and pour.</div>
-        <div class="item-details">随意装饰 | Casual garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🌸水雾生花 Misty Blossom - 莓香清雅 | 酒精度:中<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Misty Blossom - Berry Elegance | Alcohol: Medium
-        </div>
-        <div class="recipe">柠檬水打底7分、伏特加 1oz、白朗姆 1oz、莓子汁 1.5oz、摇匀倒入。<br>
-        Fill 70% with lemonade, vodka 1oz, white rum 1oz, berry juice 1.5oz, shake and pour.</div>
-        <div class="item-details">随意装饰 | Casual garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🌹一丈红 Crimson Heights - 紫韵醇香 | 酒精度:低<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Crimson Heights - Purple Aroma | Alcohol: Low
-        </div>
-        <div class="recipe">柠檬水打底7分、伏特加 1oz、葡萄汁 1.5oz、摇匀倒入。<br>
-        Fill 70% with lemonade, vodka 1oz, grape juice 1.5oz, shake and pour.</div>
-        <div class="item-details">随意装饰 | Casual garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          💰日进斗金 Golden Fortune - 茶韵双雄 | 酒精度:中<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Golden Fortune - Tea Twin Heroes | Alcohol: Medium
-        </div>
-        <div class="recipe">柠檬水打底7分、金酒 1oz、伏特加 1oz、乌龙茶 1oz、 摇匀倒入。<br>
-        Fill 70% with lemonade, gin 1oz, vodka 1oz, oolong tea 1oz, shake and pour.</div>
-        <div class="item-details">随意装饰 | Casual garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          💜紫烟 Purple Mist - 神秘紫韵 | 酒精度:低<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Purple Mist - Mysterious Purple | Alcohol: Low
-        </div>
-        <div class="recipe">柠檬水打底7分、伏特加 1oz、蓝橙 0.5oz、红石榴糖浆 0.25oz、 摇匀倒入。<br>
-        Fill 70% with lemonade, vodka 1oz, blue curaçao 0.5oz, red grenadine 0.25oz, shake and pour.</div>
-        <div class="item-details">随意装饰 | Casual garnish</div>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          🎨水墨丹青 Ink Painting - 艺术层次 | 酒精度:低<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Ink Painting - Artistic Layers | Alcohol: Low
-        </div>
-        <div class="recipe">柠檬水打底7分、白朗姆 1oz、蓝橙 0.5oz、葡萄汁 0.5oz、摇匀倒入 。<br>
-        Fill 70% with lemonade, white rum 1oz, blue curaçao 0.5oz, grape juice 0.5oz, shake and pour.</div>
-        <div class="item-details">随意装饰 | Casual garnish</div>
-      </div>
-
-    </div>
-  </div>
-
-  <hr>
-
-  <div style="text-align: center; margin-top: 50px; font-style: italic; color: #6b6b6b;">
-    &copy; 2025 老头调酒馆 | 用心调一杯你爱的味道 🍹<br>
-    &copy; 2025 Old Man's Cocktail Bar | Crafting Your Favorite Flavors with Love 🍹
-  </div>
-
+      setActiveLangButton();
+    });
+  </script>
 </body>
 </html>
