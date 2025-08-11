@@ -709,8 +709,31 @@
             "en": "Alcohol: Low"
           },
           "recipe": {
-            "zh": "加冰加柠檬汁五分满、加葡萄汁至7分满。金酒 1oz、 蓝橙 0.5oz、加冰摇匀倒入",
+            "zh": "加冰加柠檬水五分满、加葡萄气泡水至7分满。金酒 1oz、 蓝橙 0.5oz、加冰摇匀倒入",
             "en": "Blue curaçao 0.25oz, vodka 0.25oz, fill 70% with lemonade. White rum 1.25oz, grenadine 0.15oz, lemonade 2oz, shake with ice and pour."
+          },
+          "garnish": {
+            "zh": "随意装饰",
+            "en": "Casual garnish"
+          }
+        },        
+        {
+          "emoji": "🌈",
+          "name": {
+            "zh": "彩虹小岛 ",
+            "en": "Rainbow Island"
+          },
+          "description": {
+            "zh": "浪漫分层",
+            "en": "Romantic Layering"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "柠檬水打底3分满、蓝橙 0.5oz。伏特加 1oz、橙汁 2oz、加冰摇匀倒入。葡萄气泡水补满。",
+            "en": "Fill the glass 3/4 full with lemonade, add 0.5 oz of blue orange juice, 1 oz of vodka, and 2 oz of orange juice. Shake well with ice and pour into the glass. Top up with grape sparkling water."
           },
           "garnish": {
             "zh": "随意装饰",
@@ -732,8 +755,8 @@
             "en": "Alcohol: High"
           },
           "recipe": {
-            "zh": "蓝橙少量打底、橙味利口酒+伏特加10:1混合倒入、伏特加蓝橙10:1混合倒入、静止20秒、2滴奶酒。",
-            "en": "Layer blue curaçao at bottom, pour orange liqueur + vodka 10:1 mix, pour vodka + blue curaçao 10:1 mix, wait 20 seconds, add 2 drops cream liqueur."
+            "zh": "伏特加、蓝橙、2滴奶酒。",
+            "en": "vodka + blue curaçao、 add 2 drops cream liqueur."
           },
           "garnish": {
             "zh": "子弹杯",
@@ -755,7 +778,7 @@
             "en": "Alcohol: Medium"
           },
           "recipe": {
-            "zh": "加冰柠檬水打底7分、金酒 1oz、白朗姆 1oz、蓝橙 0.5oz、乌龙茶 1oz、摇匀倒入。",
+            "zh": "加冰柠檬水打底7分、金酒 0.75oz、白朗姆 0.75oz、蓝橙 0.5oz、乌龙茶 1oz、摇匀倒入。",
             "en": "Fill 70% with lemonade, gin 1oz, white rum 1oz, blue curaçao 0.5oz, oolong tea 1oz, shake and pour."
           },
           "garnish": {
