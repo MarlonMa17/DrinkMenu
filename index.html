@@ -123,61 +123,84 @@
       color: #6b6b6b;
     }
 
-    /* Language Toggle Styles */
+    /* Language Toggle Styles - Sliding Switch */
     #language-toggle {
-      margin-bottom: 20px;
+      margin-bottom: 15px;
       text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
-    .lang-btn {
-      display: inline-flex;
+    .language-switcher {
+      position: relative;
+      display: inline-block;
+      background: #2f3e30;
+      border-radius: 25px;
+      padding: 3px;
+      box-shadow: 0 4px 15px rgba(47, 62, 48, 0.2);
+      width: 115px;
+      height: 35px;
+    }
+
+    .switch-slider {
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      width: 57px;
+      height: 34px;
+      background: #f3e6c5;
+      border-radius: 22px;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+    }
+
+    .switch-slider.slide-right {
+      transform: translateX(57px);
+    }
+
+    .lang-option {
+      position: absolute;
+      top: 0;
+      width: 60px;
+      height: 40px;
+      display: flex;
       align-items: center;
       justify-content: center;
-      padding: 10px 18px;
-      margin: 0 6px;
-      background: #f3e6c5;
-      border: 1px solid rgba(47, 62, 48, 0.3);
-      border-radius: 20px;
-      cursor: pointer;
       font-family: 'Georgia', serif;
-      font-size: 0.9em;
-      color: #2f3e30;
-      transition: all 0.25s ease;
-      user-select: none;
-      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
-      white-space: nowrap;
-    }
-
-    .lang-btn:hover {
-      background: #ede0c0;
-      transform: translateY(-1px);
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-      border-color: rgba(47, 62, 48, 0.4);
-    }
-
-    .lang-btn.active {
-      background: #2f3e30;
-      color: #f3e6c5;
-      border-color: #2f3e30;
-      box-shadow: 0 2px 12px rgba(47, 62, 48, 0.2);
+      font-size: 0.85em;
       font-weight: 500;
+      cursor: pointer;
+      transition: color 0.3s ease;
+      z-index: 2;
+      user-select: none;
+    }
+
+    .lang-option.left {
+      left: 0;
+      color: #2f3e30;
+    }
+
+    .lang-option.right {
+      right: 0;
+      color: #f3e6c5;
+    }
+
+    .lang-option.active {
+      color: #2f3e30;
+    }
+
+    .lang-option.inactive {
+      color: #f3e6c5;
     }
 
     /* Enhanced Filter Section Styles */
     #filter-section {
-      padding: 15px 0;
-      margin: 20px 0 35px;
+      padding: 10px 0;
+      margin: 5px 0 35px;
       width: 100%;
       max-width: 900px;
-    }
-
-    #filter-section .filter-title {
-      font-size: 1.5em;
-      font-weight: bold;
-      color: #2f3e30;
-      margin-bottom: 20px;
-      text-align: center;
-      letter-spacing: 1px;
     }
 
     .filter-options {
@@ -255,22 +278,35 @@
       }
 
       #language-toggle {
-        margin-bottom: 15px;
+        margin-bottom: 12px;
       }
 
-      .lang-btn {
-        padding: 9px 15px;
-        font-size: 0.85em;
-        margin: 0 4px;
+      .language-switcher {
+        width: 110px;
+        height: 36px;
+      }
+
+      .switch-slider {
+        width: 52px;
+        height: 30px;
+        top: 3px;
+        left: 3px;
+        border-radius: 18px;
+      }
+
+      .switch-slider.slide-right {
+        transform: translateX(52px);
+      }
+
+      .lang-option {
+        width: 55px;
+        height: 36px;
+        font-size: 0.8em;
       }
 
       #filter-section {
-        padding: 12px 0;
-        margin: 15px 0 30px;
-      }
-
-      #filter-section .filter-title {
-        margin-bottom: 15px;
+        padding: 8px 0;
+        margin: 3px 0 30px;
       }
 
       .filter-options {
@@ -301,20 +337,32 @@
         padding: 8px 12px;
         font-size: 0.8em;
       }
-      
-      #filter-section .filter-title {
-        font-size: 1.3em;
-        margin-bottom: 12px;
+
+      .language-switcher {
+        width: 100px;
+        height: 32px;
       }
 
-      .lang-btn {
-        padding: 8px 12px;
-        font-size: 0.8em;
-        margin: 0 3px;
+      .switch-slider {
+        width: 47px;
+        height: 26px;
+        top: 3px;
+        left: 3px;
+        border-radius: 15px;
+      }
+
+      .switch-slider.slide-right {
+        transform: translateX(47px);
+      }
+
+      .lang-option {
+        width: 50px;
+        height: 32px;
+        font-size: 0.75em;
       }
 
       #language-toggle {
-        margin-bottom: 12px;
+        margin-bottom: 10px;
       }
 
       h1 {
@@ -329,12 +377,14 @@
     正在加载菜单... | Loading menu...
   </div>
 <div id="language-toggle">
-<button class="lang-btn" id="lang-zh">中文</button>
-<button class="lang-btn" id="lang-en">English</button>
+  <div class="language-switcher">
+    <div class="switch-slider" id="switch-slider"></div>
+    <div class="lang-option left active" id="lang-zh">中文</div>
+    <div class="lang-option right inactive" id="lang-en">English</div>
+  </div>
 </div>
 
 <div id="filter-section">
-  <div class="filter-title">🍸 选择您钟爱的基酒 | Select Your Favorite Spirits</div>
   <div class="filter-options">
     <div class="filter-item">
       <input class="filter-checkbox" type="checkbox" value="朗姆" id="rum">
@@ -463,9 +513,24 @@
       }).join('');
     }
 
-    function setActiveLangButton() {
-      document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
-      document.getElementById('lang-' + currentLang).classList.add('active');
+    function updateLanguageToggle() {
+      const slider = document.getElementById('switch-slider');
+      const zhOption = document.getElementById('lang-zh');
+      const enOption = document.getElementById('lang-en');
+      
+      if (currentLang === 'en') {
+        slider.classList.add('slide-right');
+        zhOption.classList.remove('active');
+        zhOption.classList.add('inactive');
+        enOption.classList.remove('inactive');
+        enOption.classList.add('active');
+      } else {
+        slider.classList.remove('slide-right');
+        enOption.classList.remove('active');
+        enOption.classList.add('inactive');
+        zhOption.classList.remove('inactive');
+        zhOption.classList.add('active');
+      }
     }
 
     document.addEventListener('DOMContentLoaded', () => {
@@ -476,18 +541,22 @@
       });
 
       document.getElementById('lang-zh').addEventListener('click', () => {
-        currentLang = 'zh';
-        setActiveLangButton();
-        applyFilters();
+        if (currentLang !== 'zh') {
+          currentLang = 'zh';
+          updateLanguageToggle();
+          applyFilters();
+        }
       });
 
       document.getElementById('lang-en').addEventListener('click', () => {
-        currentLang = 'en';
-        setActiveLangButton();
-        applyFilters();
+        if (currentLang !== 'en') {
+          currentLang = 'en';
+          updateLanguageToggle();
+          applyFilters();
+        }
       });
 
-      setActiveLangButton();
+      updateLanguageToggle();
     });
   </script>
 </body>
