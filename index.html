@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Cocktail Menu</title>
+<title>老头调酒馆 | Old Man's Cocktail Bar</title>
 <style>
     body {
       background: #f3e6c5;
@@ -22,7 +22,7 @@
     h1 {
       font-size: 3em;
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 25px;
       letter-spacing: 2px;
       color: #2f3e30;
     }
@@ -77,7 +77,7 @@
     }
 
     .category {
-      font-size: 1.8em;
+      font-size: 1.4em;
       font-weight: bold;
       color: #1e2b1f;
       margin-bottom: 25px;
@@ -125,54 +125,54 @@
 
     /* Language Toggle Styles */
     #language-toggle {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       text-align: center;
     }
 
     .lang-btn {
-      background: rgba(224, 223, 223, 0.8);
-      border: 2px solid rgba(44, 44, 44, 0.1);
-      padding: 10px 20px;
-      margin: 0 8px;
-      border-radius: 25px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 18px;
+      margin: 0 6px;
+      background: #f3e6c5;
+      border: 1px solid rgba(47, 62, 48, 0.3);
+      border-radius: 20px;
       cursor: pointer;
-      font-size: 1em;
       font-family: 'Georgia', serif;
-      color: #2c2c2c;
-      backdrop-filter: blur(5px);
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      font-size: 0.9em;
+      color: #2f3e30;
+      transition: all 0.25s ease;
+      user-select: none;
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+      white-space: nowrap;
     }
 
     .lang-btn:hover {
-      background: rgba(214, 207, 207, 0.9);
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+      background: #ede0c0;
+      transform: translateY(-1px);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+      border-color: rgba(47, 62, 48, 0.4);
     }
 
     .lang-btn.active {
-      background: linear-gradient(135deg, #2f3e30, #1e2b1f);
+      background: #2f3e30;
       color: #f3e6c5;
-      font-weight: bold;
-      transform: translateY(-1px);
-      box-shadow: 0 5px 18px rgba(47, 62, 48, 0.3);
+      border-color: #2f3e30;
+      box-shadow: 0 2px 12px rgba(47, 62, 48, 0.2);
+      font-weight: 500;
     }
 
     /* Enhanced Filter Section Styles */
     #filter-section {
-      background: linear-gradient(135deg, rgba(255,255,255,0.4), rgba(255,255,255,0.2));
-      border: 2px solid rgba(47, 62, 48, 0.1);
-      border-radius: 20px;
-      padding: 25px 30px;
-      margin: 30px 0 40px;
+      padding: 15px 0;
+      margin: 20px 0 35px;
       width: 100%;
-      max-width: 800px;
-      backdrop-filter: blur(10px);
-      box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+      max-width: 900px;
     }
 
     #filter-section .filter-title {
-      font-size: 1.3em;
+      font-size: 1.5em;
       font-weight: bold;
       color: #2f3e30;
       margin-bottom: 20px;
@@ -184,7 +184,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 15px;
+      gap: 12px;
     }
 
     .filter-item {
@@ -197,41 +197,43 @@
     }
 
     .filter-label {
-      display: inline-block;
-      padding: 12px 24px;
-      background: rgba(243, 230, 197, 0.8);
-      border: 2px solid rgba(47, 62, 48, 0.2);
-      border-radius: 30px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 18px;
+      background: #f3e6c5;
+      border: 1px solid rgba(47, 62, 48, 0.3);
+      border-radius: 20px;
       cursor: pointer;
       font-family: 'Georgia', serif;
-      font-size: 1em;
+      font-size: 0.9em;
       color: #2f3e30;
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: all 0.25s ease;
       user-select: none;
-      backdrop-filter: blur(5px);
-      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+      white-space: nowrap;
     }
 
     .filter-label:hover {
-      background: rgba(224, 207, 180, 0.9);
-      transform: translateY(-2px);
-      box-shadow: 0 5px 18px rgba(0,0,0,0.15);
-      border-color: rgba(47, 62, 48, 0.3);
+      background: #ede0c0;
+      transform: translateY(-1px);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+      border-color: rgba(47, 62, 48, 0.4);
     }
 
     .filter-checkbox:checked + .filter-label {
-      background: linear-gradient(135deg, #2f3e30, #1e2b1f);
+      background: #2f3e30;
       color: #f3e6c5;
       border-color: #2f3e30;
-      transform: translateY(-1px);
-      box-shadow: 0 6px 20px rgba(47, 62, 48, 0.3);
-      font-weight: bold;
+      box-shadow: 0 2px 12px rgba(47, 62, 48, 0.2);
+      font-weight: 500;
     }
 
     .filter-checkbox:checked + .filter-label::before {
       content: '✓ ';
       font-weight: bold;
-      margin-right: 5px;
+      margin-right: 4px;
+      font-size: 0.9em;
     }
 
     /* Responsive Design */
@@ -252,23 +254,37 @@
         margin-left: 0;
       }
 
+      #language-toggle {
+        margin-bottom: 15px;
+      }
+
+      .lang-btn {
+        padding: 9px 15px;
+        font-size: 0.85em;
+        margin: 0 4px;
+      }
+
+      #filter-section {
+        padding: 12px 0;
+        margin: 15px 0 30px;
+      }
+
+      #filter-section .filter-title {
+        margin-bottom: 15px;
+      }
+
       .filter-options {
-        justify-content: center;
         gap: 10px;
       }
 
       .filter-label {
-        padding: 10px 18px;
-        font-size: 0.9em;
-      }
-
-      #filter-section {
-        padding: 20px;
-        margin: 20px 0 30px;
+        padding: 9px 15px;
+        font-size: 0.85em;
       }
 
       h1 {
         font-size: 2.2em;
+        margin-bottom: 20px;
       }
 
       body {
@@ -278,13 +294,31 @@
 
     @media (max-width: 480px) {
       .filter-options {
-        flex-direction: column;
-        align-items: center;
+        gap: 8px;
       }
 
       .filter-label {
-        min-width: 140px;
-        text-align: center;
+        padding: 8px 12px;
+        font-size: 0.8em;
+      }
+      
+      #filter-section .filter-title {
+        font-size: 1.3em;
+        margin-bottom: 12px;
+      }
+
+      .lang-btn {
+        padding: 8px 12px;
+        font-size: 0.8em;
+        margin: 0 3px;
+      }
+
+      #language-toggle {
+        margin-bottom: 12px;
+      }
+
+      h1 {
+        margin-bottom: 15px;
       }
     }
   </style>
@@ -366,15 +400,25 @@
         if (filteredCocktails.length === 0) return;
 
         const isReverse = category.layout === 'reverse';
+        
+        // Extract category name based on language
+        let categoryName;
+        if (currentLang === 'zh') {
+          // For Chinese, extract only the Chinese part (before any English)
+          const chineseName = category.name.zh;
+          categoryName = chineseName.split(' ')[0]; // Take only Chinese part before space
+        } else {
+          categoryName = category.name.en;
+        }
+        
         html += `
           <div class="section${isReverse ? ' reverse' : ''}">
             <div class="illustration">
-              <img src="${category.image}" alt="${category.name[currentLang]}" onerror="this.style.display='none'" />
+              <img src="${category.image}" alt="${categoryName}" onerror="this.style.display='none'" />
             </div>
             <div class="menu">
               <div class="category">
-                ${category.name[currentLang]}<br>
-                ${category.alcohol[currentLang]}
+                ${categoryName}
               </div>
               ${renderCocktails(filteredCocktails)}
             </div>
@@ -397,15 +441,26 @@
     }
 
     function renderCocktails(cocktails) {
-      return cocktails.map(cocktail => `
-        <div class="item">
-          <div class="item-header">
-            ${cocktail.emoji}${cocktail.name[currentLang]} - ${cocktail.description[currentLang]} | ${cocktail.alcohol[currentLang]}
+      return cocktails.map(cocktail => {
+        let cocktailName;
+        if (currentLang === 'zh') {
+          // For Chinese, only show Chinese name
+          cocktailName = cocktail.name.zh.split(' ')[0]; // Take only the Chinese part before any English
+        } else {
+          // For English, show the English name
+          cocktailName = cocktail.name.en;
+        }
+        
+        return `
+          <div class="item">
+            <div class="item-header">
+              ${cocktail.emoji}${cocktailName} - ${cocktail.description[currentLang]} | ${cocktail.alcohol[currentLang]}
+            </div>
+            <div class="recipe">${cocktail.recipe[currentLang]}</div>
+            <div class="item-details">${cocktail.garnish[currentLang]}</div>
           </div>
-          <div class="recipe">${cocktail.recipe[currentLang]}</div>
-          <div class="item-details">${cocktail.garnish[currentLang]}</div>
-        </div>
-      `).join('');
+        `;
+      }).join('');
     }
 
     function setActiveLangButton() {
