@@ -83,29 +83,6 @@
           }
         },
         {
-          "emoji": "🍃",
-          "name": {
-            "zh": "绿野仙踪 Green Wonderland",
-            "en": "Green Wonderland"
-          },
-          "description": {
-            "zh": "绿色清爽",
-            "en": "Emerald Fresh"
-          },
-          "alcohol": {
-            "zh": "酒精度:低",
-            "en": "Alcohol: Low"
-          },
-          "recipe": {
-            "zh": "金酒 1.5oz、绿葡萄糖浆 0.5oz、青柠汁 0.75oz、摇匀加冰、苏打水补满。",
-            "en": "Gin 1.5oz, green grape syrup 0.5oz, lime juice 0.75oz, shake with ice, top with soda water."
-          },
-          "garnish": {
-            "zh": "青柠片和薄荷叶",
-            "en": "Lime wheel and mint leaves"
-          }
-        },
-        {
           "emoji": "🌺",
           "name": {
             "zh": "热带风情 Tropical Passion",

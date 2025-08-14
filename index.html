@@ -125,7 +125,10 @@
 
     /* Language Toggle Styles - Sliding Switch */
     #language-toggle {
-      margin-bottom: 15px;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
       text-align: center;
       display: flex;
       justify-content: center;
@@ -198,7 +201,7 @@
     /* Enhanced Filter Section Styles */
     #filter-section {
       padding: 10px 0;
-      margin: 5px 0 35px;
+      margin: 5px 0 25px;
       width: 100%;
       max-width: 900px;
     }
@@ -259,8 +262,87 @@
       font-size: 0.9em;
     }
 
+    /* Search Bar Styles */
+    #search-section {
+      padding: 10px 0;
+      margin: 0 0 35px;
+      width: 100%;
+      max-width: 600px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .search-container {
+      position: relative;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    #search-input {
+      width: 100%;
+      padding: 12px 45px 12px 15px;
+      border: 2px solid rgba(47, 62, 48, 0.3);
+      border-radius: 25px;
+      font-family: 'Georgia', serif;
+      font-size: 1em;
+      background: #f3e6c5;
+      color: #2f3e30;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      outline: none;
+    }
+
+    #search-input:focus {
+      border-color: #2f3e30;
+      box-shadow: 0 3px 12px rgba(47, 62, 48, 0.2);
+      background: #ede0c0;
+    }
+
+    #search-input::placeholder {
+      color: rgba(47, 62, 48, 0.6);
+      font-style: italic;
+    }
+
+    .clear-search {
+      position: absolute;
+      right: -40px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 18px;
+      height: 18px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: rgba(47, 62, 48, 0.6);
+      font-size: 16px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .clear-search:hover {
+      color: #2f3e30;
+    }
+
+    /* No Results Message */
+    .no-results {
+      text-align: center;
+      font-size: 1.1em;
+      color: #6b6b6b;
+      margin: 50px 0;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 10px;
+      border: 1px solid rgba(47, 62, 48, 0.2);
+    }
+
     /* Responsive Design */
     @media (max-width: 768px) {
+      #language-toggle {
+        top: 15px;
+        right: 15px;
+      }
+
       .section, .section.reverse {
         flex-direction: column;
         align-items: center;
@@ -275,10 +357,6 @@
       .section.reverse .illustration {
         margin-right: 0;
         margin-left: 0;
-      }
-
-      #language-toggle {
-        margin-bottom: 12px;
       }
 
       .language-switcher {
@@ -304,9 +382,18 @@
         font-size: 0.8em;
       }
 
+      #search-section {
+        margin: 0 0 20px;
+        max-width: 100%;
+      }
+
       #filter-section {
         padding: 8px 0;
         margin: 3px 0 30px;
+      }
+
+      .search-container {
+        max-width: 350px;
       }
 
       .filter-options {
@@ -329,6 +416,11 @@
     }
 
     @media (max-width: 480px) {
+      #language-toggle {
+        top: 10px;
+        right: 10px;
+      }
+
       .filter-options {
         gap: 8px;
       }
@@ -361,8 +453,13 @@
         font-size: 0.75em;
       }
 
-      #language-toggle {
-        margin-bottom: 10px;
+      .search-container {
+        max-width: 100%;
+      }
+
+      #search-input {
+        font-size: 0.9em;
+        padding: 11px 40px 11px 12px;
       }
 
       h1 {
@@ -381,6 +478,13 @@
     <div class="switch-slider" id="switch-slider"></div>
     <div class="lang-option left active" id="lang-zh">中文</div>
     <div class="lang-option right inactive" id="lang-en">English</div>
+  </div>
+</div>
+
+<div id="search-section">
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="搜索... | Search...">
+    <button class="clear-search" id="clear-search">✕</button>
   </div>
 </div>
 
@@ -418,6 +522,7 @@
 
 <script>
     let currentLang = 'zh';
+    let currentSearchTerm = '';
     
     async function loadMenu() {
       try {
@@ -437,18 +542,41 @@
 
     function applyFilters() {
       const selectedBases = Array.from(document.querySelectorAll('.filter-checkbox:checked')).map(cb => cb.value);
+      const searchTerm = document.getElementById('search-input').value.toLowerCase().trim();
       const menuContent = document.getElementById('menu-content');
       let html = '';
+      let hasResults = false;
 
       window.allCategories.forEach((category, index) => {
         const filteredCocktails = category.cocktails.filter(cocktail => {
           const recipe = cocktail.recipe.zh;
-          if (selectedBases.length === 0) return true;
-          return selectedBases.some(spirit => recipe.includes(spirit));
+          
+          // Apply base spirit filter
+          let passesBaseFilter = selectedBases.length === 0 || selectedBases.some(spirit => recipe.includes(spirit));
+          
+          // Apply search filter
+          let passesSearchFilter = true;
+          if (searchTerm) {
+            const searchableText = (
+              cocktail.name.zh + ' ' + 
+              cocktail.name.en + ' ' + 
+              cocktail.description.zh + ' ' + 
+              cocktail.description.en + ' ' + 
+              cocktail.recipe.zh + ' ' + 
+              cocktail.recipe.en + ' ' +
+              cocktail.garnish.zh + ' ' +
+              cocktail.garnish.en
+            ).toLowerCase();
+            
+            passesSearchFilter = searchableText.includes(searchTerm);
+          }
+          
+          return passesBaseFilter && passesSearchFilter;
         });
 
         if (filteredCocktails.length === 0) return;
 
+        hasResults = true;
         const isReverse = category.layout === 'reverse';
         
         // Extract category name based on language
@@ -480,12 +608,23 @@
         }
       });
 
-      html += `
-        <hr>
-        <div class="footer">
-          &copy; 2025 ${window.footerData[currentLang]} 🍹
-        </div>
-      `;
+      if (!hasResults) {
+        html = `
+          <div class="no-results">
+            ${currentLang === 'zh' ? 
+              '🔍 没有找到符合条件的鸡尾酒<br/>尝试调整搜索条件或筛选器' : 
+              '🔍 No cocktails found matching your criteria<br/>Try adjusting your search terms or filters'
+            }
+          </div>
+        `;
+      } else {
+        html += `
+          <hr>
+          <div class="footer">
+            &copy; 2025 ${window.footerData[currentLang]} 🍹
+          </div>
+        `;
+      }
 
       menuContent.innerHTML = html;
     }
@@ -533,17 +672,53 @@
       }
     }
 
+    function updateSearchPlaceholder() {
+      const searchInput = document.getElementById('search-input');
+      searchInput.placeholder = currentLang === 'zh' ? 
+        '搜索..' : 'Search...';
+    }
+
+    function toggleClearButton() {
+      const clearBtn = document.getElementById('clear-search');
+      const searchInput = document.getElementById('search-input');
+      
+      if (searchInput.value.trim()) {
+        clearBtn.style.display = 'flex';
+      } else {
+        clearBtn.style.display = 'none';
+      }
+    }
+
     document.addEventListener('DOMContentLoaded', () => {
       loadMenu();
 
+      // Filter checkboxes
       document.querySelectorAll('.filter-checkbox').forEach(cb => {
         cb.addEventListener('change', applyFilters);
       });
 
+      // Search input
+      const searchInput = document.getElementById('search-input');
+      const clearBtn = document.getElementById('clear-search');
+
+      searchInput.addEventListener('input', () => {
+        toggleClearButton();
+        applyFilters();
+      });
+
+      clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        toggleClearButton();
+        applyFilters();
+        searchInput.focus();
+      });
+
+      // Language toggle
       document.getElementById('lang-zh').addEventListener('click', () => {
         if (currentLang !== 'zh') {
           currentLang = 'zh';
           updateLanguageToggle();
+          updateSearchPlaceholder();
           applyFilters();
         }
       });
@@ -552,11 +727,13 @@
         if (currentLang !== 'en') {
           currentLang = 'en';
           updateLanguageToggle();
+          updateSearchPlaceholder();
           applyFilters();
         }
       });
 
       updateLanguageToggle();
+      updateSearchPlaceholder();
     });
   </script>
 </body>
