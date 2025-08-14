@@ -492,23 +492,23 @@
   <div class="filter-options">
     <div class="filter-item">
       <input class="filter-checkbox" type="checkbox" value="朗姆" id="rum">
-      <label class="filter-label" for="rum">🏝️ 朗姆 Rum</label>
+      <label class="filter-label" for="rum">🏝️ <span class="filter-text">朗姆 Rum</span></label>
     </div>
     <div class="filter-item">
       <input class="filter-checkbox" type="checkbox" value="伏特加" id="vodka">
-      <label class="filter-label" for="vodka">🍸 伏特加 Vodka</label>
+      <label class="filter-label" for="vodka">🍸 <span class="filter-text">伏特加 Vodka</span></label>
     </div>
     <div class="filter-item">
       <input class="filter-checkbox" type="checkbox" value="龙舌兰" id="tequila">
-      <label class="filter-label" for="tequila">🌵 龙舌兰 Tequila</label>
+      <label class="filter-label" for="tequila">🌵 <span class="filter-text">龙舌兰 Tequila</span></label>
     </div>
     <div class="filter-item">
       <input class="filter-checkbox" type="checkbox" value="威士忌" id="whiskey">
-      <label class="filter-label" for="whiskey">🥃 威士忌 Whiskey</label>
+      <label class="filter-label" for="whiskey">🥃 <span class="filter-text">威士忌 Whiskey</span></label>
     </div>
     <div class="filter-item">
       <input class="filter-checkbox" type="checkbox" value="金酒" id="gin">
-      <label class="filter-label" for="gin">🍀 金酒 Gin</label>
+      <label class="filter-label" for="gin">🍀 <span class="filter-text">金酒 Gin</span></label>
     </div>
   </div>
 </div>
@@ -524,6 +524,15 @@
     let currentLang = 'zh';
     let currentSearchTerm = '';
     
+    // Filter labels in both languages
+    const filterLabels = {
+      rum: { zh: '朗姆', en: 'Rum' },
+      vodka: { zh: '伏特加', en: 'Vodka' },
+      tequila: { zh: '龙舌兰', en: 'Tequila' },
+      whiskey: { zh: '威士忌', en: 'Whiskey' },
+      gin: { zh: '金酒', en: 'Gin' }
+    };
+    
     async function loadMenu() {
       try {
         const response = await fetch('Recipes.json');
@@ -538,6 +547,20 @@
         document.getElementById('loading').style.display = 'none';
         document.getElementById('error').style.display = 'block';
       }
+    }
+
+    function updateFilterLabels() {
+      Object.keys(filterLabels).forEach(filterId => {
+        const filterText = document.querySelector(`label[for="${filterId}"] .filter-text`);
+        if (filterText) {
+          const emoji = filterText.parentElement.textContent.match(/[^\w\s]/)[0]; // Extract emoji
+          if (currentLang === 'zh') {
+            filterText.textContent = filterLabels[filterId].zh;
+          } else {
+            filterText.textContent = filterLabels[filterId].en;
+          }
+        }
+      });
     }
 
     function applyFilters() {
@@ -675,7 +698,7 @@
     function updateSearchPlaceholder() {
       const searchInput = document.getElementById('search-input');
       searchInput.placeholder = currentLang === 'zh' ? 
-        '搜索..' : 'Search...';
+        '搜索...' : 'Search...';
     }
 
     function toggleClearButton() {
@@ -719,6 +742,7 @@
           currentLang = 'zh';
           updateLanguageToggle();
           updateSearchPlaceholder();
+          updateFilterLabels();
           applyFilters();
         }
       });
@@ -728,12 +752,14 @@
           currentLang = 'en';
           updateLanguageToggle();
           updateSearchPlaceholder();
+          updateFilterLabels();
           applyFilters();
         }
       });
 
       updateLanguageToggle();
       updateSearchPlaceholder();
+      updateFilterLabels();
     });
   </script>
 </body>
