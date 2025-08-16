@@ -51,8 +51,8 @@
             "en": "Alcohol: Low"
           },
           "recipe": {
-            "zh": "伏特加 1.5oz、橙汁 4oz。搅拌均匀加冰。",
-            "en": "Vodka 1.5oz, orange juice 4oz. Stir well with ice."
+            "zh": "伏特加 1.5oz、橙汁 4oz。加冰搅拌均匀。",
+            "en": "Vodka 1.5oz, orange juice 4oz. Stir with ice."
           },
           "garnish": {
             "zh": "橙片装饰",
@@ -97,7 +97,7 @@
             "en": "Alcohol: Low"
           },
           "recipe": {
-            "zh": "椰子朗姆酒 1.5oz、番石榴糖浆 0.25oz、菠萝汁 2oz、青柠汁 0.5oz、。摇匀加冰。",
+            "zh": "椰子朗姆酒 1.5oz、番石榴糖浆 0.25oz、菠萝汁 2oz、青柠汁 0.5oz。摇匀加冰。",
             "en": "Coconut rum 1.5oz, guava syrup 0.25oz, pineapple juice 2oz, lime juice 0.5oz. Shake with ice."
           },
           "garnish": {
@@ -181,8 +181,8 @@
             "en": "Alcohol: Low"
           },
           "recipe": {
-            "zh": "龙舌兰 1.5oz、柠檬汁 0.5oz、橙汁七成满。石榴糖浆倒入 0.25oz。",
-            "en": "Tequila 1.5oz, lemon juice 0.5oz, fill 70% with orange juice. Pour grenadine 0.25oz."
+            "zh": "龙舌兰 1.5oz、柠檬汁 0.5oz、橙汁七成满。石榴糖浆倒入 0.25oz。搅拌后分层。",
+            "en": "Tequila 1.5oz, lemon juice 0.5oz, fill 70% with orange juice. Gently pour grenadine 0.25oz to layer."
           },
           "garnish": {
             "zh": "橙片装饰",
@@ -227,8 +227,8 @@
             "en": "Alcohol: Medium"
           },
           "recipe": {
-            "zh": "伏特加 1.5oz、番茄汁 4oz、苦精 2滴、柠檬汁 0.25oz、胡椒、盐、塔巴斯科辣椒酱。",
-            "en": "Vodka 1.5oz, tomato juice 4oz, bitters 2 drops, lemon juice 0.25oz, pepper, salt, Tabasco sauce."
+            "zh": "伏特加 1.5oz、番茄汁 4oz、苦精 2滴、柠檬汁 0.25oz、胡椒、盐、塔巴斯科辣椒酱。摇匀加冰。",
+            "en": "Vodka 1.5oz, tomato juice 4oz, bitters 2 drops, lemon juice 0.25oz, pepper, salt, Tabasco sauce. Shake with ice."
           },
           "garnish": {
             "zh": "薄荷叶装饰",
@@ -251,7 +251,7 @@
           },
           "recipe": {
             "zh": "杯中薄荷叶8-10片、青柠汁 1oz、糖浆 0.5oz、捣碎。白朗姆 1.5oz、加冰加苏打水搅拌均匀。",
-            "en": "8-10 mint leaves, 1 oz lime juice, 0.5 oz simple syrup, muddled. 1.5 oz white rum, add ice and soda water, stir well."
+            "en": "8-10 mint leaves, 1 oz lime juice, 0.5 oz simple syrup, muddle. 1.5 oz white rum, add ice and soda water, stir well."
           },
           "garnish": {
             "zh": "薄荷叶装饰",
@@ -334,8 +334,8 @@
             "en": "Alcohol: High"
           },
           "recipe": {
-            "zh": "威士忌 1.5oz、金酒 0.5oz、肉桂一根、苦精 2滴。搅拌加冰。",
-            "en": "Whiskey 1.5oz, gin 0.5oz, cinnamon stick, bitters 2 drops. Stir with ice."
+            "zh": "威士忌 1.5oz、杏仁利口酒 0.5oz、肉桂一根、苦精 2滴。搅拌加冰。",
+            "en": "Whiskey 1.5oz, amaretto 0.5oz, cinnamon stick, bitters 2 drops. Stir with ice."
           },
           "garnish": {
             "zh": "肉桂棒装饰",
@@ -357,8 +357,8 @@
             "en": "Alcohol: High"
           },
           "recipe": {
-            "zh": "威士忌 1.75oz、苦精 0.25oz、方糖 1块、苏打水 0.5oz。",
-            "en": "Whiskey 1.75oz, bitters 0.25oz, sugar cube 1, soda water 0.5oz."
+            "zh": "威士忌 1.75oz、苦精 0.25oz、方糖 1块、苏打水 0.5oz。搅拌至糖溶解。",
+            "en": "Whiskey 1.75oz, bitters 0.25oz, sugar cube 1, soda water 0.5oz. Stir until sugar dissolves."
           },
           "garnish": {
             "zh": "橙皮装饰",
@@ -380,8 +380,8 @@
             "en": "Alcohol: High"
           },
           "recipe": {
-            "zh": "威士忌 1.75oz、味美思 0.75oz、苦精 3滴。搅拌加冰。",
-            "en": "Whiskey 1.75oz, vermouth 0.75oz, bitters 3 drops. Stir with ice."
+            "zh": "威士忌 1.75oz、甜味美思 0.75oz、苦精 3滴。搅拌加冰。",
+            "en": "Whiskey 1.75oz, sweet vermouth 0.75oz, bitters 3 drops. Stir with ice."
           },
           "garnish": {
             "zh": "樱桃装饰",
@@ -403,8 +403,8 @@
             "en": "Alcohol: High"
           },
           "recipe": {
-            "zh": "朗姆 0.75oz、龙舌兰 0.75oz、威士忌 1.5oz",
-            "en": "Rum 0.75oz, tequila 0.75oz, whiskey 1.5oz"
+            "zh": "朗姆 0.75oz、龙舌兰 0.75oz、威士忌 1.5oz。搅拌加冰。",
+            "en": "Rum 0.75oz, tequila 0.75oz, whiskey 1.5oz. Stir with ice."
           },
           "garnish": {
             "zh": "可燃",
@@ -426,8 +426,8 @@
             "en": "Alcohol: High"
           },
           "recipe": {
-            "zh": "白朗姆 0.5oz、金酒 0.5oz、伏特加 0.5oz、龙舌兰 0.5oz、柠檬汁 0.25oz、可乐补满。",
-            "en": "White rum 0.5oz, gin 0.5oz, vodka 0.5oz, tequila 0.5oz, lemon juice 0.25oz, top with cola."
+            "zh": "白朗姆 0.5oz、金酒 0.5oz、伏特加 0.5oz、龙舌兰 0.5oz、柠檬汁 0.25oz。摇匀加冰，可乐补满。",
+            "en": "White rum 0.5oz, gin 0.5oz, vodka 0.5oz, tequila 0.5oz, lemon juice 0.25oz. Shake with ice, top with cola."
           },
           "garnish": {
             "zh": "薄荷叶、柠檬片装饰",
@@ -449,8 +449,8 @@
             "en": "Alcohol: High"
           },
           "recipe": {
-            "zh": "白朗姆 0.5oz、金酒 0.5oz、伏特加 0.5oz、龙舌兰 0.5oz、蓝橙 0.5oz、青柠汁 0.25oz、雪碧补满。",
-            "en": "White rum 0.5oz, gin 0.5oz, vodka 0.5oz, tequila 0.5oz, blue curaçao 0.5oz, lime juice 0.25oz, top with Sprite."
+            "zh": "白朗姆 0.5oz、金酒 0.5oz、伏特加 0.5oz、龙舌兰 0.5oz、蓝橙 0.5oz、青柠汁 0.25oz。摇匀加冰，雪碧补满。",
+            "en": "White rum 0.5oz, gin 0.5oz, vodka 0.5oz, tequila 0.5oz, blue curaçao 0.5oz, lime juice 0.25oz. Shake with ice, top with Sprite."
           },
           "garnish": {
             "zh": "薄荷叶、青柠片装饰",
@@ -473,7 +473,7 @@
       "layout": "reverse",
       "cocktails": [
         {
-          "emoji": "🔷",
+          "emoji": "🍷",
           "name": {
             "zh": "吉姆雷特 Gimlet",
             "en": "Gimlet"
@@ -487,7 +487,7 @@
             "en": "Alcohol: Medium"
           },
           "recipe": {
-            "zh": "金酒 1.5oz、青柠汁 0.75oz、糖浆 0.25oz。摇匀去冰。",
+            "zh": "金酒 1.5oz、青柠汁 0.75oz、糖浆 0.25oz。摇匀后去冰。",
             "en": "Gin 1.5oz, lime juice 0.75oz, simple syrup 0.25oz. Shake and strain."
           },
           "garnish": {
@@ -510,8 +510,8 @@
             "en": "Alcohol: High"
           },
           "recipe": {
-            "zh": "金酒 2oz、干味美思 0.25oz、苦精 2滴、橄榄汁 0.25oz。摇匀去冰。",
-            "en": "Gin 2oz, dry vermouth 0.25oz, bitters 2 drops, olive brine 0.25oz. Shake and strain."
+            "zh": "金酒 2oz、干味美思 0.25oz、苦精 2滴、橄榄汁 0.25oz。搅拌后去冰。",
+            "en": "Gin 2oz, dry vermouth 0.25oz, bitters 2 drops, olive brine 0.25oz. Stir and strain."
           },
           "garnish": {
             "zh": "橄榄装饰",
@@ -533,7 +533,7 @@
             "en": "Alcohol: High"
           },
           "recipe": {
-            "zh": "龙舌兰 2oz、橙味利口酒 1oz、青柠汁 1oz、苦精 1滴。摇匀去冰。",
+            "zh": "龙舌兰 2oz、橙味利口酒 1oz、青柠汁 1oz、苦精 1滴。摇匀后去冰。",
             "en": "Tequila 2oz, orange liqueur 1oz, lime juice 1oz, bitters 1 drop. Shake and strain."
           },
           "garnish": {
@@ -556,7 +556,7 @@
             "en": "Alcohol: High"
           },
           "recipe": {
-            "zh": "伏特加 1oz、白朗姆 1oz、橙味利口酒 1oz、柠檬汁 0.25oz。摇匀去冰。",
+            "zh": "伏特加 1oz、白朗姆 1oz、橙味利口酒 1oz、柠檬汁 0.25oz。摇匀后去冰。",
             "en": "Vodka 1oz, white rum 1oz, orange liqueur 1oz, lemon juice 0.25oz. Shake and strain."
           },
           "garnish": {
@@ -565,7 +565,7 @@
           }
         },
         {
-          "emoji": "🤍",
+          "emoji": "🤲",
           "name": {
             "zh": "少女的祈祷 maiden's Prayer",
             "en": "Maiden's Prayer"
@@ -579,7 +579,7 @@
             "en": "Alcohol: High"
           },
           "recipe": {
-            "zh": "金酒 2oz、橙味利口酒 1oz、柠檬汁 0.25oz。摇匀去冰。",
+            "zh": "金酒 2oz、橙味利口酒 1oz、柠檬汁 0.25oz。摇匀后去冰。",
             "en": "Gin 2oz, orange liqueur 1oz, lemon juice 0.25oz. Shake and strain."
           },
           "garnish": {
@@ -663,7 +663,7 @@
             "en": "Alcohol: Low"
           },
           "recipe": {
-            "zh": "番茄若干捣碎、橙子利口酒 1oz、伏特加 0.5oz、柠檬汁 0.25oz。摇匀加冰、补苏打水。",
+            "zh": "番茄若干捣碎、橙子利口酒 1oz、伏特加 0.5oz、柠檬汁 0.25oz。摇匀加冰，补苏打水。",
             "en": "Fresh tomatoes muddled, orange liqueur 1oz, vodka 0.5oz, lemon juice 0.25oz. Shake with ice, top with soda water."
           },
           "garnish": {
@@ -686,8 +686,8 @@
             "en": "Alcohol: Low"
           },
           "recipe": {
-            "zh": "加冰加柠檬水五分满、加葡萄气泡水至7分满。金酒 1oz、 蓝橙 0.5oz、加冰摇匀倒入",
-            "en": "Blue curaçao 0.25oz, vodka 0.25oz, fill 70% with lemonade. White rum 1.25oz, grenadine 0.15oz, lemonade 2oz, shake with ice and pour."
+            "zh": "加冰加柠檬水五分满、加葡萄气泡水至7分满。金酒 1oz、 蓝橙 0.5oz、搅拌倒入",
+            "en": "Blue curaçao 0.25oz, vodka 0.25oz, fill 70% with lemonade. White rum 1.25oz, grenadine 0.15oz, lemonade 2oz, pour."
           },
           "garnish": {
             "zh": "随意装饰",
