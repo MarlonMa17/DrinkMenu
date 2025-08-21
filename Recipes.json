@@ -104,6 +104,29 @@
             "zh": "菠萝片和薄荷叶装饰",
             "en": "Pineapple wedge and mint garnish"
           }
+        },        
+        {
+          "emoji": "🌺",
+          "name": {
+            "zh": "粉红佳人 Pink Lady",
+            "en": "Pink Lady"
+          },
+          "description": {
+            "zh": "茶香清新",
+            "en": "Tea Freshness"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "红茶浓缩液 2oz、金酒 1oz、君度 0.5oz、柠檬汁 0.3oz、红色糖浆 0.3oz。摇匀加冰。补苏打水。",
+            "en": "2 oz black tea concentrate, 1 oz gin, 0.5 oz Cointreau, 0.3 oz lemon juice, 0.3 oz red syrup. Shake well with ice. Top up with soda water. "
+          },
+          "garnish": {
+            "zh": "菠萝片和薄荷叶装饰",
+            "en": "Pineapple wedge and mint garnish"
+          }
         },
         {
           "emoji": "🥤",
