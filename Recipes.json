@@ -108,8 +108,8 @@
         {
           "emoji": "🌺",
           "name": {
-            "zh": "粉红佳人 Pink Lady",
-            "en": "Pink Lady"
+            "zh": "维他柠檬茶 Vita Lemon Tea",
+            "en": "Vita Lemon Tea"
           },
           "description": {
             "zh": "茶香清新",
@@ -126,6 +126,29 @@
           "garnish": {
             "zh": "菠萝片和薄荷叶装饰",
             "en": "Pineapple wedge and mint garnish"
+          }
+        },
+        {
+          "emoji": "🌞",
+          "name": {
+            "zh": "无尽之夏 Endless Summer",
+            "en": "Endless Summer"
+          },
+          "description": {
+            "zh": "夏日清香",
+            "en": "Summer Fresh"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "加冰橙汁5分满、苏打水7分满。伏特加 1.5oz、蓝橙糖浆 0.25oz、柠檬汁 0.25oz、摇匀倒入。",
+            "en": "Fill 50% with orange juice, 70% with soda water. Vodka 1.5oz, blue curaçao syrup 0.25oz, lemon juice 0.25oz, shake and pour."
+          },
+          "garnish": {
+            "zh": "橙片装饰",
+            "en": "Orange slice garnish"
           }
         },
         {
@@ -149,29 +172,6 @@
           "garnish": {
             "zh": "青柠片装饰",
             "en": "Lime wedge garnish"
-          }
-        },
-        {
-          "emoji": "💥",
-          "name": {
-            "zh": "B-54燃情炸弹 B-54 Flame Bomber",
-            "en": "B-54 Flame Bomber"
-          },
-          "description": {
-            "zh": "视觉炸弹",
-            "en": "Visual Bomb"
-          },
-          "alcohol": {
-            "zh": "酒精度:中",
-            "en": "Alcohol: Medium"
-          },
-          "recipe": {
-            "zh": "杯中 伏特加 0.5oz、蓝橙 0.5oz、雪碧7分满。子弹杯杯底蘸柠檬+盐、龙舌兰补满子弹杯、轻触酒液拿起再丢下",
-            "en": "Glass: vodka 0.5oz, blue curaçao 0.5oz, fill 70% with Sprite. Shot glass: rim with lemon and salt, fill with tequila, gently touch liquid then drop."
-          },
-          "garnish": {
-            "zh": "青柠角装饰",
-            "en": "Lime corner garnish"
           }
         }
       ]
@@ -432,6 +432,29 @@
           "garnish": {
             "zh": "可燃",
             "en": "Flammable"
+          }
+        },
+        {
+          "emoji": "💥",
+          "name": {
+            "zh": "B-54燃情炸弹 B-54 Flame Bomber",
+            "en": "B-54 Flame Bomber"
+          },
+          "description": {
+            "zh": "视觉炸弹",
+            "en": "Visual Bomb"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "杯中 伏特加 0.5oz、蓝橙 0.5oz、雪碧7分满。子弹杯杯底蘸柠檬+盐、龙舌兰补满子弹杯、轻触酒液拿起再丢下",
+            "en": "Glass: vodka 0.5oz, blue curaçao 0.5oz, fill 70% with Sprite. Shot glass: rim with lemon and salt, fill with tequila, gently touch liquid then drop."
+          },
+          "garnish": {
+            "zh": "青柠角装饰",
+            "en": "Lime corner garnish"
           }
         },
         {
@@ -871,75 +894,6 @@
       "layout": "normal",
       "cocktails": [
         {
-          "emoji": "💧",
-          "name": {
-            "zh": "白开水 Plain Water",
-            "en": "Plain Water"
-          },
-          "description": {
-            "zh": "茶香清雅",
-            "en": "Tea Elegance"
-          },
-          "alcohol": {
-            "zh": "酒精度:中",
-            "en": "Alcohol: Medium"
-          },
-          "recipe": {
-            "zh": "加冰、金酒 1.5oz、茉莉花茶 3oz、椰子水 3oz、倒入杯中搅匀。",
-            "en": "Add ice, gin 1.5oz, jasmine tea 3oz, coconut water 3oz, stir in glass."
-          },
-          "garnish": {
-            "zh": "茉莉花瓣装饰",
-            "en": "Jasmine petals garnish"
-          }
-        },
-        {
-          "emoji": "🌞",
-          "name": {
-            "zh": "无尽之夏 Endless Summer",
-            "en": "Endless Summer"
-          },
-          "description": {
-            "zh": "夏日清香",
-            "en": "Summer Fresh"
-          },
-          "alcohol": {
-            "zh": "酒精度:低",
-            "en": "Alcohol: Low"
-          },
-          "recipe": {
-            "zh": "加冰橙汁5分满、苏打水7分满。伏特加 0.5oz、蓝橙 0.5oz、柠檬汁 0.5oz、摇匀倒入。",
-            "en": "Fill 50% with orange juice, 70% with soda water. Vodka 0.5oz, blue curaçao 0.5oz, lemon juice 0.5oz, shake and pour."
-          },
-          "garnish": {
-            "zh": "橙片装饰",
-            "en": "Orange slice garnish"
-          }
-        },
-        {
-          "emoji": "💚",
-          "name": {
-            "zh": "青梦 Green Dream",
-            "en": "Green Dream"
-          },
-          "description": {
-            "zh": "茶香清新",
-            "en": "Tea Fresh"
-          },
-          "alcohol": {
-            "zh": "酒精度:低",
-            "en": "Alcohol: Low"
-          },
-          "recipe": {
-            "zh": "杯中加冰、蓝橙 0.5oz、乌龙茶 1oz、搅匀。柠檬水8分满、茉莉花茶至满杯。",
-            "en": "Add ice to glass, blue curaçao 0.5oz, oolong tea 1oz, stir. Fill 80% with lemon water, top with jasmine tea."
-          },
-          "garnish": {
-            "zh": "薄荷叶装饰",
-            "en": "Mint leaves garnish"
-          }
-        },
-        {
           "emoji": "🌈",
           "name": {
             "zh": "彩虹小岛 Rainbow Island",
@@ -983,52 +937,6 @@
           "garnish": {
             "zh": "星星装饰",
             "en": "Star garnish"
-          }
-        },
-        {
-          "emoji": "☁️",
-          "name": {
-            "zh": "云端星海 Starry Cloud Sea",
-            "en": "Starry Cloud Sea"
-          },
-          "description": {
-            "zh": "云海星辰",
-            "en": "Cloud Sea Stars"
-          },
-          "alcohol": {
-            "zh": "酒精度:中",
-            "en": "Alcohol: Medium"
-          },
-          "recipe": {
-            "zh": "加冰柠檬水打底7分、葡萄气泡水8分满。伏特加 1oz、蓝橙 1oz、加冰摇匀倒入。",
-            "en": "Fill 70% with lemon water, 80% with grape sparkling water. Vodka 1oz, blue curaçao 1oz, shake with ice and pour."
-          },
-          "garnish": {
-            "zh": "云朵装饰",
-            "en": "Cloud garnish"
-          }
-        },
-        {
-          "emoji": "🪞",
-          "name": {
-            "zh": "天空之镜 Sky Mirror",
-            "en": "Sky Mirror"
-          },
-          "description": {
-            "zh": "镜面倒影",
-            "en": "Mirror Reflection"
-          },
-          "alcohol": {
-            "zh": "酒精度:低",
-            "en": "Alcohol: Low"
-          },
-          "recipe": {
-            "zh": "加冰蓝橙 0.3oz、柠檬水打底7分。白朗姆 1oz、莓桃汁 1oz、摇匀倒入。",
-            "en": "Add ice, blue curaçao 0.3oz, fill 70% with lemon water. White rum 1oz, peach berry juice 1oz, shake and pour."
-          },
-          "garnish": {
-            "zh": "天空蓝装饰",
-            "en": "Sky blue garnish"
           }
         },
         {
