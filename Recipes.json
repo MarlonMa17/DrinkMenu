@@ -28,8 +28,8 @@
             "en": "Alcohol: Low"
           },
           "recipe": {
-            "zh": "朗姆 1.5oz、椰子朗姆 1oz、菠萝汁 1.75oz、椰奶 1.75oz、柠檬汁 0.15oz、加冰摇匀。",
-            "en": "rum 1.5oz, Coconut rum 1oz, suger 0.15oz、pineapple juice 1.75oz, coconut milk 1.75oz, lemon juice 0.15oz,shake with ice."
+            "zh": "朗姆 1oz、椰子朗姆 1oz、菠萝汁 1.5oz、椰奶 1.5oz、柠檬汁 0.15oz、加冰摇匀。",
+            "en": "Rum 1oz, coconut rum 1oz, pineapple juice 1.5oz, coconut milk 1.5oz, lemon juice 0.15oz, shake with ice."
           },
           "garnish": {
             "zh": "撒上玫瑰盐",
@@ -741,29 +741,6 @@
           }
         },
         {
-          "emoji": "🏮",
-          "name": {
-            "zh": "烟雨入江南 Misty Rain in Jiangnan",
-            "en": "Misty Rain in Jiangnan"
-          },
-          "description": {
-            "zh": "茶香雅韵",
-            "en": "Tea Elegance"
-          },
-          "alcohol": {
-            "zh": "酒精度:中",
-            "en": "Alcohol: Medium"
-          },
-          "recipe": {
-            "zh": "加冰柠檬水打底7分、金酒 0.75oz、白朗姆 0.75oz、蓝橙 0.5oz、乌龙茶 1oz、摇匀倒入。",
-            "en": "Fill 70% with lemonade, gin 1oz, white rum 1oz, blue curaçao 0.5oz, oolong tea 1oz, shake and pour."
-          },
-          "garnish": {
-            "zh": "随意装饰",
-            "en": "Casual garnish"
-          }
-        },
-        {
           "emoji": "🌸",
           "name": {
             "zh": "水雾生花 Misty Blossom",
@@ -803,29 +780,6 @@
           "recipe": {
             "zh": "加冰柠檬水打底7分、伏特加 1oz、葡萄汁 1.5oz、摇匀倒入。",
             "en": "Fill 70% with lemonade, vodka 1oz, grape juice 1.5oz, shake and pour."
-          },
-          "garnish": {
-            "zh": "随意装饰",
-            "en": "Casual garnish"
-          }
-        },
-        {
-          "emoji": "🪙",
-          "name": {
-            "zh": "日进斗金 Golden Fortune",
-            "en": "Golden Fortune"
-          },
-          "description": {
-            "zh": "茶韵双雄",
-            "en": "Tea Twin Heroes"
-          },
-          "alcohol": {
-            "zh": "酒精度:中",
-            "en": "Alcohol: Medium"
-          },
-          "recipe": {
-            "zh": "加冰柠檬水打底7分、金酒 1.5oz、乌龙茶 1oz、摇匀倒入。",
-            "en": "Fill 70% with lemonade, gin 1oz, vodka 1oz, oolong tea 1oz, shake and pour."
           },
           "garnish": {
             "zh": "随意装饰",
