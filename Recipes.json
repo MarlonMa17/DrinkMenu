@@ -296,8 +296,8 @@
             "en": "Alcohol: Medium"
           },
           "recipe": {
-            "zh": "伏特加 1.5oz、橙味利口酒 0.5oz、番石榴糖浆 0.5oz、青柠汁 0.75oz、蔓越莓汁 0.5oz。加冰摇匀。",
-            "en": "Vodka 1.5oz, orange liqueur 0.5oz, guava syrup 0.5oz, lime juice 0.75oz, cranberry juice 0.5oz. Shake with ice."
+            "zh": "伏特加 1oz、君度 0.5oz、青柠汁 0.5oz、蔓越莓汁 1.5oz。加冰摇匀。",
+            "en": "Vodka 1oz, Cointreau 0.5oz, lime juice 0.5oz, cranberry juice 1.5oz. Shake with ice."
           },
           "garnish": {
             "zh": "青柠片装饰",
@@ -357,7 +357,7 @@
             "en": "Alcohol: High"
           },
           "recipe": {
-            "zh": "威士忌 1.5oz、杏仁利口酒 0.5oz、肉桂一根、苦精 2滴。慢搅拌加冰。",
+            "zh": "威士忌 1.5oz、(杏仁利口酒 0.5oz)、肉桂一根、苦精 2滴。慢搅拌加冰。",
             "en": "Whiskey 1.5oz, amaretto 0.5oz, cinnamon stick, bitters 2 drops. Stir with ice."
           },
           "garnish": {
@@ -579,7 +579,7 @@
             "en": "Alcohol: High"
           },
           "recipe": {
-            "zh": "龙舌兰 2oz、橙味利口酒 1oz、青柠汁 1oz、苦精 1滴。摇匀后去冰。",
+            "zh": "龙舌兰 2oz、君度 1oz、青柠汁 1oz、苦精 1滴。摇匀后去冰。",
             "en": "Tequila 2oz, orange liqueur 1oz, lime juice 1oz, bitters 1 drop. Shake and strain."
           },
           "garnish": {
@@ -602,7 +602,7 @@
             "en": "Alcohol: High"
           },
           "recipe": {
-            "zh": "伏特加 1oz、白朗姆 1oz、橙味利口酒 1oz、柠檬汁 0.25oz。摇匀后去冰。",
+            "zh": "伏特加 1oz、白朗姆 1oz、君度 1oz、柠檬汁 0.25oz。摇匀后去冰。",
             "en": "Vodka 1oz, white rum 1oz, orange liqueur 1oz, lemon juice 0.25oz. Shake and strain."
           },
           "garnish": {
@@ -625,7 +625,7 @@
             "en": "Alcohol: High"
           },
           "recipe": {
-            "zh": "金酒 2oz、橙味利口酒 1oz、柠檬汁 0.25oz。摇匀后去冰。",
+            "zh": "金酒 2oz、君度 1oz、柠檬汁 0.25oz。摇匀后去冰。",
             "en": "Gin 2oz, orange liqueur 1oz, lemon juice 0.25oz. Shake and strain."
           },
           "garnish": {
@@ -709,7 +709,7 @@
             "en": "Alcohol: Low"
           },
           "recipe": {
-            "zh": "番茄若干捣碎、橙子利口酒 1oz、伏特加 0.5oz、柠檬汁 0.25oz。摇匀加冰，补苏打水。",
+            "zh": "番茄若干捣碎、橙子 1oz、伏特加 0.5oz、柠檬汁 0.25oz。摇匀加冰，补苏打水。",
             "en": "Fresh tomatoes muddled, orange liqueur 1oz, vodka 0.5oz, lemon juice 0.25oz. Shake with ice, top with soda water."
           },
           "garnish": {
@@ -891,6 +891,52 @@
           "garnish": {
             "zh": "星星装饰",
             "en": "Star garnish"
+          }
+        },
+        {
+          "emoji": "🌊",
+          "name": {
+            "zh": "海湾微风 Bay Breeze",
+            "en": "Bay Breeze"
+          },
+          "description": {
+            "zh": "清新甜美",
+            "en": "Fresh & Sweet"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "伏特加 1.5oz、蔓越莓汁 3oz、菠萝汁 3oz。加冰慢搅拌。",
+            "en": ""
+          },
+          "garnish": {
+            "zh": "青柠片",
+            "en": "Lime wheel"
+          }
+        },
+        {
+          "emoji": "🌿",
+          "name": {
+            "zh": "蔓越莓莫吉托 Cranberry Mojito",
+            "en": "Cranberry Mojito"
+          },
+          "description": {
+            "zh": "薄荷清香",
+            "en": "Minty Fresh"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "杯中薄荷叶8-10片、青柠汁 1oz、糖浆 0.5oz、捣碎。白朗姆 1.5oz、蔓越莓汁 2oz、加冰加苏打水慢搅拌匀。",
+            "en": "8-10 mint leaves, 1 oz lime juice, 0.5 oz simple syrup, muddle. 1.5 oz white rum, 2 oz cranberry juice, add ice and soda water, stir well."
+          },
+          "garnish": {
+            "zh": "薄荷叶装饰",
+            "en": "Mint leaves garnish"
           }
         },
         {
