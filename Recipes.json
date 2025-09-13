@@ -940,6 +940,75 @@
           }
         },
         {
+          "emoji": "🍵",
+          "name": {
+            "zh": "抹茶柑橘 Matcha Citrus",
+            "en": "Matcha Citrus"
+          },
+          "description": {
+            "zh": "清新茶香",
+            "en": "Fresh Tea Aroma"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "金酒 1oz、抹茶粉 0.5tsp、橙汁 2oz。摇匀加冰，补苏打水。",
+            "en": "Gin 1oz, matcha powder 0.5tsp, orange juice 2oz. Shake with ice, top with soda water."
+          },
+          "garnish": {
+            "zh": "橙子装饰",
+            "en": "Orange garnish"
+          }
+        },
+        {
+          "emoji": "🍨",
+          "name": {
+            "zh": "热带雪顶 Tropical Snowcap",
+            "en": "Tropical Snowcap"
+          },
+          "description": {
+            "zh": "甜蜜清新",
+            "en": "Sweet & Fresh"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "椰子朗姆 1oz、菠萝汁 2oz、 可乐/雪碧补满。加一颗冰淇淋球。",
+            "en": "Coconut rum 1oz, pineapple juice 2oz, top with cola/Sprite. Add a scoop of ice cream."
+          },
+          "garnish": {
+            "zh": "薄荷叶、柠檬片装饰",
+            "en": "Mint leaves, lemon slice garnish"
+          }
+        },
+        {
+          "emoji": "🌌",
+          "name": {
+            "zh": "紫罗兰幻境 Violet Mirage",
+            "en": "Violet Mirage"
+          },
+          "description": {
+            "zh": "酸甜梦幻",
+            "en": "Sweet & Sour Fantasy"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "伏特加 1oz、蓝橙 0.5oz、葡萄汁 2oz、柠檬汁 0.25oz。摇匀加冰。",
+            "en": "Vodka 1oz, blue curaçao 0.5oz, grape juice 2oz, lemon juice 0.25oz. Shake with ice."
+          },
+          "garnish": {
+            "zh": "薄荷叶/柠檬片装饰",
+            "en": "Mint leaves/lemon slice garnish"
+          }
+        },
+        {
           "emoji": "💕",
           "name": {
             "zh": "爱河 Love River",
