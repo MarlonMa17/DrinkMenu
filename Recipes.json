@@ -83,6 +83,29 @@
           }
         },
         {
+          "emoji": "🍨",
+          "name": {
+            "zh": "热带雪顶 Tropical Snowcap",
+            "en": "Tropical Snowcap"
+          },
+          "description": {
+            "zh": "甜蜜清新",
+            "en": "Sweet & Fresh"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "椰子朗姆 2oz、菠萝汁 2oz、 可乐/雪碧补满。加一颗冰淇淋球。",
+            "en": "Coconut rum 2oz, pineapple juice 2oz, top with cola/Sprite. Add a scoop of ice cream."
+          },
+          "garnish": {
+            "zh": "薄荷叶、柠檬片装饰",
+            "en": "Mint leaves, lemon slice garnish"
+          }
+        },
+        {
           "emoji": "🌺",
           "name": {
             "zh": "热带风情 Tropical Passion",
@@ -149,6 +172,75 @@
           "garnish": {
             "zh": "橙片装饰",
             "en": "Orange slice garnish"
+          }
+        },
+        {
+          "emoji": "🌌",
+          "name": {
+            "zh": "银河 Galaxy",
+            "en": "Galaxy"
+          },
+          "description": {
+            "zh": "星空梦幻",
+            "en": "Starry Fantasy"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "加冰加柠檬水五分满、加葡萄气泡水至7分满。金酒 1oz、蓝橙 0.5oz、搅拌倒入。",
+            "en": "Fill 50% with lemon water, 70% with grape sparkling water. Gin 1oz, blue curaçao 0.5oz, stir and pour."
+          },
+          "garnish": {
+            "zh": "星星装饰",
+            "en": "Star garnish"
+          }
+        },
+        {
+          "emoji": "🌊",
+          "name": {
+            "zh": "海湾微风 Bay Breeze",
+            "en": "Bay Breeze"
+          },
+          "description": {
+            "zh": "清新甜美",
+            "en": "Fresh & Sweet"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "伏特加 1.5oz、蔓越莓汁 3oz、菠萝汁 3oz。加冰慢搅拌。",
+            "en": ""
+          },
+          "garnish": {
+            "zh": "青柠片",
+            "en": "Lime wheel"
+          }
+        },
+        {
+          "emoji": "🌑",
+          "name": {
+            "zh": "暗潮涌动 Tidal Wave",
+            "en": "Tidal Wave"
+          },
+          "description": {
+            "zh": "浑浊梦幻",
+            "en": "Tidal Wave"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "柠檬水打底3分满、蓝橙 0.5oz。伏特加 1oz、橙汁 2oz、加冰摇匀倒入。葡萄气泡水补满。",
+            "en": "Fill 30% with lemon water, blue curaçao 0.5oz. Vodka 1oz, orange juice 2oz, shake with ice and pour. Top with grape sparkling water."
+          },
+          "garnish": {
+            "zh": "可以龙舌兰蘸盐深水炸弹",
+            "en": "Tequila salt rim shot bomb"
           }
         },
         {
@@ -672,6 +764,29 @@
           }
         },
         {
+          "emoji": "💕",
+          "name": {
+            "zh": "爱河 Love River",
+            "en": "Love River"
+          },
+          "description": {
+            "zh": "甜蜜爱意",
+            "en": "Sweet Love"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "加冰AD钙奶7分满、红石榴糖浆 0.3oz、倒入搅匀。朗姆 1.5oz、蓝橙 0.75oz、摇匀倒入。",
+            "en": "Fill 70% with AD calcium milk, grenadine 0.3oz, stir. Rum 1.5oz, blue curaçao 0.75oz, shake and pour."
+          },
+          "garnish": {
+            "zh": "心形装饰",
+            "en": "Heart-shaped garnish"
+          }
+        },
+        {
           "emoji": "🥥",
           "name": {
             "zh": "百利甜椰香饮 Baileys Coconut Splash",
@@ -848,98 +963,6 @@
       "layout": "normal",
       "cocktails": [
         {
-          "emoji": "🌈",
-          "name": {
-            "zh": "彩虹小岛 Rainbow Island",
-            "en": "Rainbow Island"
-          },
-          "description": {
-            "zh": "彩虹层次",
-            "en": "Rainbow Layers"
-          },
-          "alcohol": {
-            "zh": "酒精度:低",
-            "en": "Alcohol: Low"
-          },
-          "recipe": {
-            "zh": "柠檬水打底3分满、蓝橙 0.5oz。伏特加 1oz、橙汁 2oz、加冰摇匀倒入。葡萄气泡水补满。",
-            "en": "Fill 30% with lemon water, blue curaçao 0.5oz. Vodka 1oz, orange juice 2oz, shake with ice and pour. Top with grape sparkling water."
-          },
-          "garnish": {
-            "zh": "彩虹装饰",
-            "en": "Rainbow garnish"
-          }
-        },
-        {
-          "emoji": "🌌",
-          "name": {
-            "zh": "银河 Galaxy",
-            "en": "Galaxy"
-          },
-          "description": {
-            "zh": "星空梦幻",
-            "en": "Starry Fantasy"
-          },
-          "alcohol": {
-            "zh": "酒精度:中",
-            "en": "Alcohol: Medium"
-          },
-          "recipe": {
-            "zh": "加冰加柠檬水五分满、加葡萄气泡水至7分满。金酒 1oz、蓝橙 0.5oz、搅拌倒入。",
-            "en": "Fill 50% with lemon water, 70% with grape sparkling water. Gin 1oz, blue curaçao 0.5oz, stir and pour."
-          },
-          "garnish": {
-            "zh": "星星装饰",
-            "en": "Star garnish"
-          }
-        },
-        {
-          "emoji": "🌊",
-          "name": {
-            "zh": "海湾微风 Bay Breeze",
-            "en": "Bay Breeze"
-          },
-          "description": {
-            "zh": "清新甜美",
-            "en": "Fresh & Sweet"
-          },
-          "alcohol": {
-            "zh": "酒精度:低",
-            "en": "Alcohol: Low"
-          },
-          "recipe": {
-            "zh": "伏特加 1.5oz、蔓越莓汁 3oz、菠萝汁 3oz。加冰慢搅拌。",
-            "en": ""
-          },
-          "garnish": {
-            "zh": "青柠片",
-            "en": "Lime wheel"
-          }
-        },
-        {
-          "emoji": "🌿",
-          "name": {
-            "zh": "蔓越莓莫吉托 Cranberry Mojito",
-            "en": "Cranberry Mojito"
-          },
-          "description": {
-            "zh": "薄荷清香",
-            "en": "Minty Fresh"
-          },
-          "alcohol": {
-            "zh": "酒精度:中",
-            "en": "Alcohol: Medium"
-          },
-          "recipe": {
-            "zh": "杯中薄荷叶8-10片、青柠汁 1oz、糖浆 0.5oz、捣碎。白朗姆 1.5oz、蔓越莓汁 2oz、加冰加苏打水慢搅拌匀。",
-            "en": "8-10 mint leaves, 1 oz lime juice, 0.5 oz simple syrup, muddle. 1.5 oz white rum, 2 oz cranberry juice, add ice and soda water, stir well."
-          },
-          "garnish": {
-            "zh": "薄荷叶装饰",
-            "en": "Mint leaves garnish"
-          }
-        },
-        {
           "emoji": "🍵",
           "name": {
             "zh": "抹茶柑橘 Matcha Citrus",
@@ -963,29 +986,6 @@
           }
         },
         {
-          "emoji": "🍨",
-          "name": {
-            "zh": "热带雪顶 Tropical Snowcap",
-            "en": "Tropical Snowcap"
-          },
-          "description": {
-            "zh": "甜蜜清新",
-            "en": "Sweet & Fresh"
-          },
-          "alcohol": {
-            "zh": "酒精度:低",
-            "en": "Alcohol: Low"
-          },
-          "recipe": {
-            "zh": "椰子朗姆 1oz、菠萝汁 2oz、 可乐/雪碧补满。加一颗冰淇淋球。",
-            "en": "Coconut rum 1oz, pineapple juice 2oz, top with cola/Sprite. Add a scoop of ice cream."
-          },
-          "garnish": {
-            "zh": "薄荷叶、柠檬片装饰",
-            "en": "Mint leaves, lemon slice garnish"
-          }
-        },
-        {
           "emoji": "🌌",
           "name": {
             "zh": "紫罗兰幻境 Violet Mirage",
@@ -1006,29 +1006,6 @@
           "garnish": {
             "zh": "薄荷叶/柠檬片装饰",
             "en": "Mint leaves/lemon slice garnish"
-          }
-        },
-        {
-          "emoji": "💕",
-          "name": {
-            "zh": "爱河 Love River",
-            "en": "Love River"
-          },
-          "description": {
-            "zh": "甜蜜爱意",
-            "en": "Sweet Love"
-          },
-          "alcohol": {
-            "zh": "酒精度:中",
-            "en": "Alcohol: Medium"
-          },
-          "recipe": {
-            "zh": "加冰AD钙奶7分满、红石榴糖浆 0.3oz、倒入搅匀。朗姆 1.5oz、蓝橙 0.75oz、摇匀倒入。",
-            "en": "Fill 70% with AD calcium milk, grenadine 0.3oz, stir. Rum 1.5oz, blue curaçao 0.75oz, shake and pour."
-          },
-          "garnish": {
-            "zh": "心形装饰",
-            "en": "Heart-shaped garnish"
           }
         }
       ]
