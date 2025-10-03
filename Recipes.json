@@ -97,8 +97,8 @@
             "en": "Alcohol: Low"
           },
           "recipe": {
-            "zh": "椰子朗姆 2oz、菠萝汁 2oz、 可乐/雪碧补满。加一颗冰淇淋球。",
-            "en": "Coconut rum 2oz, pineapple juice 2oz, top with cola/Sprite. Add a scoop of ice cream."
+            "zh": "椰子朗姆 2oz、菠萝汁 2oz、 可乐/雪碧补满。（加一颗冰淇淋球）",
+            "en": "Coconut rum 2oz, pineapple juice 2oz, top with cola/Sprite. （Add a scoop of ice cream）."
           },
           "garnish": {
             "zh": "薄荷叶、柠檬片装饰",
@@ -1006,6 +1006,98 @@
           "garnish": {
             "zh": "薄荷叶/柠檬片装饰",
             "en": "Mint leaves/lemon slice garnish"
+          }
+        },
+        {
+          "emoji": "🌺",
+          "name": {
+            "zh": "蔓越莓雾境 Cranberry Mist",
+            "en": "Cranberry Mist"
+          },
+          "description": {
+            "zh": "粉红梦幻",
+            "en": "Pink Fantasy"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "加冰柠檬水打底5分、伏特加 1oz、蔓越莓汁 2oz、蓝橙 0.25oz、摇匀倒入。补苏打水。",
+            "en": "Fill 50% with lemonade, vodka 1oz, cranberry juice 2oz, blue curaçao 0.25oz, shake and pour. Top with soda water."
+          },
+          "garnish": {
+            "zh": "新鲜蔓越莓、薄荷叶",
+            "en": "Fresh cranberries, mint leaves"
+          }
+        },
+        {
+          "emoji": "🍓",
+          "name": {
+            "zh": "莓恋热带 Berry Paradise",
+            "en": "Berry Paradise"
+          },
+          "description": {
+            "zh": "热带莓果",
+            "en": "Tropical Berry"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "椰子朗姆 1.5oz、蔓越莓汁 2oz、菠萝汁 1oz、青柠汁 0.25oz。摇匀加冰。",
+            "en": "Coconut rum 1.5oz, cranberry juice 2oz, pineapple juice 1oz, lime juice 0.25oz. Shake with ice."
+          },
+          "garnish": {
+            "zh": "菠萝片、蔓越莓串",
+            "en": "Pineapple slice, cranberry skewer"
+          }
+        },
+        {
+          "emoji": "🌸",
+          "name": {
+            "zh": "红粉佳人 Pink Lady Remix",
+            "en": "Pink Lady Remix"
+          },
+          "description": {
+            "zh": "清新莓香",
+            "en": "Fresh Berry"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "金酒 1oz、蔓越莓汁 1.5oz、柠檬汁 0.5oz、红石榴糖浆 0.25oz。摇匀加冰，补苏打水。",
+            "en": "Gin 1oz, cranberry juice 1.5oz, lemon juice 0.5oz, grenadine 0.25oz. Shake with ice, top with soda water."
+          },
+          "garnish": {
+            "zh": "柠檬片、可食用花瓣",
+            "en": "Lemon slice, edible petals"
+          }
+        },
+        {
+          "emoji": "☁️",
+          "name": {
+            "zh": "蔓莓椰云 Cranberry Coconut Cloud",
+            "en": "Cranberry Coconut Cloud"
+          },
+          "description": {
+            "zh": "粉白渐层",
+            "en": "Pink-White Gradient"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "椰子朗姆 1.5oz、蔓越莓汁 2oz、椰奶 2oz、青柠汁 0.25oz。摇匀加冰。",
+            "en": "Coconut rum 1.5oz, cranberry juice 2oz, coconut milk 2oz, lime juice 0.25oz. Shake with ice."
+          },
+          "garnish": {
+            "zh": "薄荷叶",
+            "en": "Mint leaves"
           }
         }
       ]
