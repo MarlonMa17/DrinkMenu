@@ -963,52 +963,6 @@
       "layout": "normal",
       "cocktails": [
         {
-          "emoji": "🍵",
-          "name": {
-            "zh": "抹茶柑橘 Matcha Citrus",
-            "en": "Matcha Citrus"
-          },
-          "description": {
-            "zh": "清新茶香",
-            "en": "Fresh Tea Aroma"
-          },
-          "alcohol": {
-            "zh": "酒精度:低",
-            "en": "Alcohol: Low"
-          },
-          "recipe": {
-            "zh": "金酒 1oz、抹茶粉 0.5tsp、橙汁 2oz。摇匀加冰，补苏打水。",
-            "en": "Gin 1oz, matcha powder 0.5tsp, orange juice 2oz. Shake with ice, top with soda water."
-          },
-          "garnish": {
-            "zh": "橙子装饰",
-            "en": "Orange garnish"
-          }
-        },
-        {
-          "emoji": "🌌",
-          "name": {
-            "zh": "紫罗兰幻境 Violet Mirage",
-            "en": "Violet Mirage"
-          },
-          "description": {
-            "zh": "酸甜梦幻",
-            "en": "Sweet & Sour Fantasy"
-          },
-          "alcohol": {
-            "zh": "酒精度:中",
-            "en": "Alcohol: Medium"
-          },
-          "recipe": {
-            "zh": "伏特加 1oz、蓝橙 0.5oz、葡萄汁 2oz、柠檬汁 0.25oz。摇匀加冰。",
-            "en": "Vodka 1oz, blue curaçao 0.5oz, grape juice 2oz, lemon juice 0.25oz. Shake with ice."
-          },
-          "garnish": {
-            "zh": "薄荷叶/柠檬片装饰",
-            "en": "Mint leaves/lemon slice garnish"
-          }
-        },
-        {
           "emoji": "🌺",
           "name": {
             "zh": "蔓越莓雾境 Cranberry Mist",
@@ -1098,6 +1052,144 @@
           "garnish": {
             "zh": "薄荷叶",
             "en": "Mint leaves"
+          }
+        },
+        {
+          "emoji": "☕",
+          "name": {
+            "zh": "百利甜咖啡 Baileys Coffee",
+            "en": "Baileys Coffee"
+          },
+          "description": {
+            "zh": "奶香咖啡",
+            "en": "Creamy Coffee"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "百利甜 2oz、冰咖啡 3oz。加冰慢搅拌。",
+            "en": "Baileys 2oz, iced coffee 3oz. Stir with ice."
+          },
+          "garnish": {
+            "zh": "咖啡豆装饰",
+            "en": "Coffee beans garnish"
+          }
+        },
+        {
+          "emoji": "🍫",
+          "name": {
+            "zh": "百利甜巧克力马天尼 Chocolate Martini",
+            "en": "Chocolate Martini"
+          },
+          "description": {
+            "zh": "甜美巧克力",
+            "en": "Sweet Chocolate"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "伏特加 1oz、百利甜 1.5oz、可可糖浆 0.5oz。摇匀后去冰。",
+            "en": "Vodka 1oz, Baileys 1.5oz, chocolate syrup 0.5oz. Shake and strain."
+          },
+          "garnish": {
+            "zh": "巧克力碎屑",
+            "en": "Chocolate shavings"
+          }
+        },
+        {
+          "emoji": "🥛",
+          "name": {
+            "zh": "百利甜白俄罗斯 White Russian",
+            "en": "White Russian"
+          },
+          "description": {
+            "zh": "经典奶油",
+            "en": "Classic Cream"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "伏特加 1.5oz、百利甜 1.5oz、可乐 2oz。慢搅拌加冰。",
+            "en": "Vodka 1.5oz, Baileys 1.5oz, cola 2oz. Stir with ice."
+          },
+          "garnish": {
+            "zh": "肉桂粉撒面",
+            "en": "Cinnamon powder on top"
+          }
+        },
+        {
+          "emoji": "🍦",
+          "name": {
+            "zh": "百利甜椰香奶昔 Baileys Coconut Shake",
+            "en": "Baileys Coconut Shake"
+          },
+          "description": {
+            "zh": "奶昔口感",
+            "en": "Milkshake Texture"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "百利甜 2oz、椰子朗姆 1oz、椰奶 3oz、冰淇淋球 1个。摇匀。",
+            "en": "Baileys 2oz, coconut rum 1oz, coconut milk 3oz, ice cream scoop 1. Shake."
+          },
+          "garnish": {
+            "zh": "椰丝撒面",
+            "en": "Coconut flakes on top"
+          }
+        },
+        {
+          "emoji": "🥥",
+          "name": {
+            "zh": "百利甜菠萝云 Baileys Pineapple Cloud",
+            "en": "Baileys Pineapple Cloud"
+          },
+          "description": {
+            "zh": "热带奶香",
+            "en": "Tropical Cream"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "百利甜 1.5oz、椰子朗姆 1oz、菠萝汁 2oz。摇匀加冰。",
+            "en": "Baileys 1.5oz, coconut rum 1oz, pineapple juice 2oz. Shake with ice."
+          },
+          "garnish": {
+            "zh": "菠萝片装饰",
+            "en": "Pineapple slice garnish"
+          }
+        },
+        {
+          "emoji": "🍓",
+          "name": {
+            "zh": "百利甜莓果奶霜 Baileys Berry Cream",
+            "en": "Baileys Berry Cream"
+          },
+          "description": {
+            "zh": "莓果奶香",
+            "en": "Berry Cream"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "百利甜 2oz、伏特加 1oz、蔓越莓汁 2oz。摇匀加冰。",
+            "en": "Baileys 2oz, vodka 1oz, cranberry juice 2oz. Shake with ice."
+          },
+          "garnish": {
+            "zh": "新鲜蔓越莓",
+            "en": "Fresh cranberries"
           }
         }
       ]
