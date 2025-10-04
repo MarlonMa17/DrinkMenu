@@ -1078,29 +1078,6 @@
           }
         },
         {
-          "emoji": "🍫",
-          "name": {
-            "zh": "百利甜巧克力马天尼 Chocolate Martini",
-            "en": "Chocolate Martini"
-          },
-          "description": {
-            "zh": "甜美巧克力",
-            "en": "Sweet Chocolate"
-          },
-          "alcohol": {
-            "zh": "酒精度:中",
-            "en": "Alcohol: Medium"
-          },
-          "recipe": {
-            "zh": "伏特加 1oz、百利甜 1.5oz、可可糖浆 0.5oz。摇匀后去冰。",
-            "en": "Vodka 1oz, Baileys 1.5oz, chocolate syrup 0.5oz. Shake and strain."
-          },
-          "garnish": {
-            "zh": "巧克力碎屑",
-            "en": "Chocolate shavings"
-          }
-        },
-        {
           "emoji": "🥛",
           "name": {
             "zh": "百利甜白俄罗斯 White Russian",
