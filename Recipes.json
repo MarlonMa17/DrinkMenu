@@ -1191,6 +1191,29 @@
             "zh": "新鲜蔓越莓",
             "en": "Fresh cranberries"
           }
+        },
+                {
+          "emoji": "🐝",
+          "name": {
+            "zh": "风之息 Breath of Wind",
+            "en": "Breath of Wind"
+          },
+          "description": {
+            "zh": "酸甜清爽",
+            "en": "Sweet & Sour Fresh"
+          },
+          "alcohol": {
+            "zh": "酒精度:中",
+            "en": "Alcohol: Medium"
+          },
+          "recipe": {
+            "zh": "金酒 2oz、柠檬汁 0.75oz、蜂蜜糖浆（蜂蜜：水 1：1） 0.75oz。加冰摇匀。",
+            "en": "Gin 2oz, lemon juice 0.75oz, honey syrup (honey: water 1:1) 0.75oz. Shake with ice."
+          },
+          "garnish": {
+            "zh": "柠檬皮",
+            "en": "Lemon peel"
+          }
         }
       ]
     }
