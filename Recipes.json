@@ -127,6 +127,52 @@
             "zh": "菠萝片和薄荷叶装饰",
             "en": "Pineapple wedge and mint garnish"
           }
+        },
+        {
+          "emoji": "☁️",
+          "name": {
+            "zh": "蔓莓椰云 Cranberry Coconut Cloud",
+            "en": "Cranberry Coconut Cloud"
+          },
+          "description": {
+            "zh": "粉白渐层",
+            "en": "Pink-White Gradient"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "椰子朗姆 1.5oz、蔓越莓汁 2oz、椰奶 2oz、青柠汁 0.25oz。摇匀加冰。",
+            "en": "Coconut rum 1.5oz, cranberry juice 2oz, coconut milk 2oz, lime juice 0.25oz. Shake with ice."
+          },
+          "garnish": {
+            "zh": "薄荷叶",
+            "en": "Mint leaves"
+          }
+        },
+        {
+          "emoji": "🥥",
+          "name": {
+            "zh": "百利甜菠萝云 Baileys Pineapple Cloud",
+            "en": "Baileys Pineapple Cloud"
+          },
+          "description": {
+            "zh": "热带奶香",
+            "en": "Tropical Cream"
+          },
+          "alcohol": {
+            "zh": "酒精度:低",
+            "en": "Alcohol: Low"
+          },
+          "recipe": {
+            "zh": "百利甜 1.5oz、椰子朗姆 1oz、菠萝汁 2oz。摇匀加冰。",
+            "en": "Baileys 1.5oz, coconut rum 1oz, pineapple juice 2oz. Shake with ice."
+          },
+          "garnish": {
+            "zh": "菠萝片装饰",
+            "en": "Pineapple slice garnish"
+          }
         },        
         {
           "emoji": "🌺",
@@ -1032,29 +1078,6 @@
           }
         },
         {
-          "emoji": "☁️",
-          "name": {
-            "zh": "蔓莓椰云 Cranberry Coconut Cloud",
-            "en": "Cranberry Coconut Cloud"
-          },
-          "description": {
-            "zh": "粉白渐层",
-            "en": "Pink-White Gradient"
-          },
-          "alcohol": {
-            "zh": "酒精度:低",
-            "en": "Alcohol: Low"
-          },
-          "recipe": {
-            "zh": "椰子朗姆 1.5oz、蔓越莓汁 2oz、椰奶 2oz、青柠汁 0.25oz。摇匀加冰。",
-            "en": "Coconut rum 1.5oz, cranberry juice 2oz, coconut milk 2oz, lime juice 0.25oz. Shake with ice."
-          },
-          "garnish": {
-            "zh": "薄荷叶",
-            "en": "Mint leaves"
-          }
-        },
-        {
           "emoji": "☕",
           "name": {
             "zh": "百利甜咖啡 Baileys Coffee",
@@ -1075,29 +1098,6 @@
           "garnish": {
             "zh": "咖啡豆装饰",
             "en": "Coffee beans garnish"
-          }
-        },
-        {
-          "emoji": "🥛",
-          "name": {
-            "zh": "百利甜白俄罗斯 White Russian",
-            "en": "White Russian"
-          },
-          "description": {
-            "zh": "经典奶油",
-            "en": "Classic Cream"
-          },
-          "alcohol": {
-            "zh": "酒精度:中",
-            "en": "Alcohol: Medium"
-          },
-          "recipe": {
-            "zh": "伏特加 1.5oz、百利甜 1.5oz、可乐 2oz。慢搅拌加冰。",
-            "en": "Vodka 1.5oz, Baileys 1.5oz, cola 2oz. Stir with ice."
-          },
-          "garnish": {
-            "zh": "肉桂粉撒面",
-            "en": "Cinnamon powder on top"
           }
         },
         {
@@ -1124,52 +1124,6 @@
           }
         },
         {
-          "emoji": "🥥",
-          "name": {
-            "zh": "百利甜菠萝云 Baileys Pineapple Cloud",
-            "en": "Baileys Pineapple Cloud"
-          },
-          "description": {
-            "zh": "热带奶香",
-            "en": "Tropical Cream"
-          },
-          "alcohol": {
-            "zh": "酒精度:低",
-            "en": "Alcohol: Low"
-          },
-          "recipe": {
-            "zh": "百利甜 1.5oz、椰子朗姆 1oz、菠萝汁 2oz。摇匀加冰。",
-            "en": "Baileys 1.5oz, coconut rum 1oz, pineapple juice 2oz. Shake with ice."
-          },
-          "garnish": {
-            "zh": "菠萝片装饰",
-            "en": "Pineapple slice garnish"
-          }
-        },
-        {
-          "emoji": "🍓",
-          "name": {
-            "zh": "百利甜莓果奶霜 Baileys Berry Cream",
-            "en": "Baileys Berry Cream"
-          },
-          "description": {
-            "zh": "莓果奶香",
-            "en": "Berry Cream"
-          },
-          "alcohol": {
-            "zh": "酒精度:低",
-            "en": "Alcohol: Low"
-          },
-          "recipe": {
-            "zh": "百利甜 2oz、伏特加 1oz、蔓越莓汁 2oz。摇匀加冰。",
-            "en": "Baileys 2oz, vodka 1oz, cranberry juice 2oz. Shake with ice."
-          },
-          "garnish": {
-            "zh": "新鲜蔓越莓",
-            "en": "Fresh cranberries"
-          }
-        },
-                {
           "emoji": "🐝",
           "name": {
             "zh": "蜂之膝 Bee's Knees",
