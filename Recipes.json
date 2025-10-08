@@ -1101,29 +1101,6 @@
           }
         },
         {
-          "emoji": "🍦",
-          "name": {
-            "zh": "百利甜椰香奶昔 Baileys Coconut Shake",
-            "en": "Baileys Coconut Shake"
-          },
-          "description": {
-            "zh": "奶昔口感",
-            "en": "Milkshake Texture"
-          },
-          "alcohol": {
-            "zh": "酒精度:低",
-            "en": "Alcohol: Low"
-          },
-          "recipe": {
-            "zh": "百利甜 2oz、椰子朗姆 1oz、椰奶 3oz、冰淇淋球 1个。摇匀。",
-            "en": "Baileys 2oz, coconut rum 1oz, coconut milk 3oz, ice cream scoop 1. Shake."
-          },
-          "garnish": {
-            "zh": "椰丝撒面",
-            "en": "Coconut flakes on top"
-          }
-        },
-        {
           "emoji": "🐝",
           "name": {
             "zh": "蜂之膝 Bee's Knees",
